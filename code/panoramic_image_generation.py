@@ -110,7 +110,7 @@ if __name__ == "__main__":
                         "Supports JPEG/PNG formats")
 
     parser.add_argument("--device", type=str, default="cuda:0",help="main device")
-    parser.add_argument("--seed", type=int, default=0)
+    parser.add_argument("--seed", type=int, default=380)
     parser.add_argument("--fov", type=float, default=None)
     parser.add_argument("--output_path", type=str, default="",help="Directory path for saving results. ")
 
