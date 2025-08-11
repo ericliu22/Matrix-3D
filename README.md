@@ -398,7 +398,7 @@ All camera matrices used in our project are world to camera matrices in opencv f
 If you find this project useful, please consider citing it as follows:
 ```bibtex
 @article{yang2025matrix3d,
-  title     = {Matrix3D: Omnidirectional Explorable 3D World Generation},
+  title     = {Matrix-3D: Omnidirectional Explorable 3D World Generation},
   author    = {Zhongqi Yang and Wenhang Ge and Yuqi Li and Jiaqi Chen and Haoyuan Li and Mengyin An and Fei Kang and Hua Xue and Baixin Xu and Yuyang Yin and Eric Li and Yang Liu and Yikai Wang and Hao-Xiang Guo and Yahui Zhou},
   year      = {2025}
 }
