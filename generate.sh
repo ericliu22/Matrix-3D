@@ -3,7 +3,7 @@ output_dir=output/example1
 # Step1: text to panorama image
 python code/panoramic_image_generation.py \
     --mode=t2p \
-    --prompt="a vibrant, industrial-style scene, featuring a large warehouse with exposed brick walls, metal beams, and scattered barrels and crates, set against a backdrop of modern skyscrapers and lush greenery" \
+    --prompt="a medieval village, half-timbered houses, cobblestone streets, lush greenery, clear blue sky, detailed textures, vibrant colors, high resolution" \
     --output_path=$output_dir
 
 # Or you can choose image to panorama image generation
