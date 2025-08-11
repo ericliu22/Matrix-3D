@@ -1,0 +1,6 @@
+[submodule "submodules/nvdiffrast"]
+	path = submodules/nvdiffrast
+	url = https://github.com/NVlabs/nvdiffrast
+[submodule "submodules/ODGS"]
+	path = submodules/ODGS
+	url = https://github.com/esw0116/ODGS
