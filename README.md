@@ -180,7 +180,7 @@ Clone the repo and create the environment:
 
 ```bash
 # Clone the repository 
-git clone https://github.com/SkyworkAI/Matrix-3D.git
+git clone --recursive https://github.com/SkyworkAI/Matrix-3D.git
 cd Matrix-3D
 
 # Create a new conda environment
