@@ -1,5 +1,3 @@
-echo "✅ Installing xformers..."
-
 echo "✅ Installing Submodules..."
 cd ./submodules/nvdiffrast/
 pip install .
