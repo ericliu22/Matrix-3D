@@ -291,7 +291,7 @@ python code/panoramic_video_480p_to_3DScene_lrm.py \
 --out_path='./output/example2'
 ```
 The extracted 3D scene in `.ply` format and rendered perspective videos will be saved `output/example2`.
-If you want to reconstruct 3D scene with another panorama videos and conditioned camera pose, just replace the video_path and pose_path accordingly.
+If you want to reconstruct 3D scene with another panorama video and conditioned camera pose, just replace the video_path and pose_path accordingly.
 ## 🎬 Create Your Own
 <table border="1">
 <tr>
@@ -425,4 +425,4 @@ This project is built on top of the follows, please consider citing them if you 
 - [StableSR](https://github.com/IceClear/StableSR)
 - [VEnhancer](https://github.com/Vchitect/VEnhancer)
 ## 📧 Contact
-If you have any questions, please feel free post an issue.
+If you have any questions or would like us to implement any features, please feel free post an issue.
