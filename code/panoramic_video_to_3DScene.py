@@ -61,7 +61,7 @@ def main(args):
     gs_input_dir = os.path.join(step1_output_dir,'geom_optim/data')
     gs_output_dir = os.path.join(step1_output_dir,'geom_optim/output')
     os.system(f"cd ./code/Pano_GS_Opt && python train.py -s {gs_input_dir} -m {gs_output_dir} -r 1 --use_decoupled_appearance --save_iterations 3000 6000 9000 12000 15000 --test_iterations 3000 \
-    --sh_degree 0 --densify_from_iter 500 --densify_until_iter 2501 --iterations 3000 --eval \
+    --sh_degree 0 --densify_from_iter 500 --densify_until_iter 1501 --iterations 3000 --eval \
     --img_sample_interval 1 --num_views_per_view 3 --num_of_point_cloud 3000000 --device {device} --distortion_from_iter 6500 --depth_normal_from_iter 6500\
     ")
 
