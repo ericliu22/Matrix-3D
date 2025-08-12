@@ -1,0 +1,927 @@
+/root/miniconda3/envs/sov/lib/python3.10/site-packages/_distutils_hack/__init__.py:53: UserWarning: Reliance on distutils from stdlib is deprecated. Users must rely on setuptools to provide the distutils module. Avoid importing distutils or import setuptools first, and avoid setting SETUPTOOLS_USE_DISTUTILS=stdlib. Register concerns at https://github.com/pypa/setuptools/issues/new?template=distutils-deprecation.yml
+  warnings.warn(
+Optimizing output/scene_test/pano_Rail_PCG_Road2_40_59__Take_249_2
+Output folder: output/scene_test/pano_Rail_PCG_Road2_40_59__Take_249_2
+Found world_matrix.npz file, assuming Blender npz data set!
+Reading all camera params
+train_cams=120, test_cams=357
+Loading Training Cameras
+Loading Test Cameras
+Number of points at initialisation :  3000000
+
+
+spatial lr scale: 0.25 0.00016 0.0025 0.01 0.0005 0.0002
+
+
+Computing 3D filter
+Training progress:   0%|          | 0/6000 [00:00<?, ?it/s]Training progress:   0%|          | 0/6000 [00:21<?, ?it/s, Loss=0.1352719]Training progress:   0%|          | 10/6000 [00:21<3:30:57,  2.11s/it, Loss=0.1352719]Training progress:   0%|          | 10/6000 [00:42<3:30:57,  2.11s/it, Loss=0.1531864]Training progress:   0%|          | 20/6000 [00:42<3:29:44,  2.10s/it, Loss=0.1531864]Training progress:   0%|          | 20/6000 [01:28<3:29:44,  2.10s/it, Loss=0.1383235]Training progress:   0%|          | 30/6000 [01:28<5:23:25,  3.25s/it, Loss=0.1383235]Training progress:   0%|          | 30/6000 [01:44<5:23:25,  3.25s/it, Loss=0.1493192]Training progress:   1%|          | 40/6000 [01:44<4:17:47,  2.60s/it, Loss=0.1493192]Training progress:   1%|          | 40/6000 [02:10<4:17:47,  2.60s/it, Loss=0.1637488]Training progress:   1%|          | 50/6000 [02:10<4:18:00,  2.60s/it, Loss=0.1637488]Training progress:   1%|          | 50/6000 [02:21<4:18:00,  2.60s/it, Loss=0.1436366]Training progress:   1%|          | 60/6000 [02:21<3:28:33,  2.11s/it, Loss=0.1436366]Training progress:   1%|          | 60/6000 [02:32<3:28:33,  2.11s/it, Loss=0.1340331]Training progress:   1%|          | 70/6000 [02:32<2:55:07,  1.77s/it, Loss=0.1340331]Training progress:   1%|          | 70/6000 [03:03<2:55:07,  1.77s/it, Loss=0.1069330]Training progress:   1%|▏         | 80/6000 [03:03<3:36:28,  2.19s/it, Loss=0.1069330]Training progress:   1%|▏         | 80/6000 [03:44<3:36:28,  2.19s/it, Loss=0.1362433]Training progress:   2%|▏         | 90/6000 [03:44<4:34:15,  2.78s/it, Loss=0.1362433]Training progress:   2%|▏         | 90/6000 [04:31<4:34:15,  2.78s/it, Loss=0.1493657]Training progress:   2%|▏         | 100/6000 [04:31<5:30:47,  3.36s/it, Loss=0.1493657]Training progress:   2%|▏         | 100/6000 [05:22<5:30:47,  3.36s/it, Loss=0.1915633]Training progress:   2%|▏         | 110/6000 [05:22<6:23:00,  3.90s/it, Loss=0.1915633]Training progress:   2%|▏         | 110/6000 [05:43<6:23:00,  3.90s/it, Loss=0.1141351]Training progress:   2%|▏         | 120/6000 [05:43<5:29:00,  3.36s/it, Loss=0.1141351]Training progress:   2%|▏         | 120/6000 [06:14<5:29:00,  3.36s/it, Loss=0.1004104]Training progress:   2%|▏         | 130/6000 [06:14<5:21:10,  3.28s/it, Loss=0.1004104]Training progress:   2%|▏         | 130/6000 [07:00<5:21:10,  3.28s/it, Loss=0.0720275]Training progress:   2%|▏         | 140/6000 [07:00<6:00:15,  3.69s/it, Loss=0.0720275]Training progress:   2%|▏         | 140/6000 [07:31<6:00:15,  3.69s/it, Loss=0.1617573]Training progress:   2%|▎         | 150/6000 [07:31<5:43:00,  3.52s/it, Loss=0.1617573]Training progress:   2%|▎         | 150/6000 [08:08<5:43:00,  3.52s/it, Loss=0.1166410]Training progress:   3%|▎         | 160/6000 [08:08<5:45:21,  3.55s/it, Loss=0.1166410]Training progress:   3%|▎         | 160/6000 [08:59<5:45:21,  3.55s/it, Loss=0.1594181]Training progress:   3%|▎         | 170/6000 [08:59<6:32:03,  4.03s/it, Loss=0.1594181]Training progress:   3%|▎         | 170/6000 [09:56<6:32:03,  4.03s/it, Loss=0.1336940]Training progress:   3%|▎         | 180/6000 [09:56<7:17:55,  4.51s/it, Loss=0.1336940]Training progress:   3%|▎         | 180/6000 [10:27<7:17:55,  4.51s/it, Loss=0.1611482]Training progress:   3%|▎         | 190/6000 [10:27<6:36:45,  4.10s/it, Loss=0.1611482]Training progress:   3%|▎         | 190/6000 [11:13<6:36:45,  4.10s/it, Loss=0.1503476]Training progress:   3%|▎         | 200/6000 [11:13<6:52:23,  4.27s/it, Loss=0.1503476]Training progress:   3%|▎         | 200/6000 [11:24<6:52:23,  4.27s/it, Loss=0.1976035]Training progress:   4%|▎         | 210/6000 [11:24<5:19:10,  3.31s/it, Loss=0.1976035]Training progress:   4%|▎         | 210/6000 [12:00<5:19:10,  3.31s/it, Loss=0.1010048]Training progress:   4%|▎         | 220/6000 [12:00<5:26:40,  3.39s/it, Loss=0.1010048]Training progress:   4%|▎         | 220/6000 [12:26<5:26:40,  3.39s/it, Loss=0.1647169]Training progress:   4%|▍         | 230/6000 [12:26<5:03:34,  3.16s/it, Loss=0.1647169]Training progress:   4%|▍         | 230/6000 [13:12<5:03:34,  3.16s/it, Loss=0.1633594]Training progress:   4%|▍         | 240/6000 [13:12<5:45:14,  3.60s/it, Loss=0.1633594]Training progress:   4%|▍         | 240/6000 [13:49<5:45:14,  3.60s/it, Loss=0.1462909]Training progress:   4%|▍         | 250/6000 [13:49<5:45:26,  3.60s/it, Loss=0.1462909]Training progress:   4%|▍         | 250/6000 [14:35<5:45:26,  3.60s/it, Loss=0.1598469]Training progress:   4%|▍         | 260/6000 [14:35<6:13:43,  3.91s/it, Loss=0.1598469]Training progress:   4%|▍         | 260/6000 [15:21<6:13:43,  3.91s/it, Loss=0.1168042]Training progress:   4%|▍         | 270/6000 [15:21<6:34:40,  4.13s/it, Loss=0.1168042]Training progress:   4%|▍         | 270/6000 [15:43<6:34:40,  4.13s/it, Loss=0.1607296]Training progress:   5%|▍         | 280/6000 [15:43<5:37:06,  3.54s/it, Loss=0.1607296]Training progress:   5%|▍         | 280/6000 [16:09<5:37:06,  3.54s/it, Loss=0.1458965]Training progress:   5%|▍         | 290/6000 [16:09<5:09:21,  3.25s/it, Loss=0.1458965]Training progress:   5%|▍         | 290/6000 [16:34<5:09:21,  3.25s/it, Loss=0.1490095]Training progress:   5%|▌         | 300/6000 [16:34<4:49:51,  3.05s/it, Loss=0.1490095]Training progress:   5%|▌         | 300/6000 [17:21<4:49:51,  3.05s/it, Loss=0.1649620]Training progress:   5%|▌         | 310/6000 [17:21<5:35:52,  3.54s/it, Loss=0.1649620]Training progress:   5%|▌         | 310/6000 [18:02<5:35:52,  3.54s/it, Loss=0.1651320]Training progress:   5%|▌         | 320/6000 [18:02<5:50:15,  3.70s/it, Loss=0.1651320]Training progress:   5%|▌         | 320/6000 [18:33<5:50:15,  3.70s/it, Loss=0.1198280]Training progress:   6%|▌         | 330/6000 [18:33<5:32:03,  3.51s/it, Loss=0.1198280]Training progress:   6%|▌         | 330/6000 [18:54<5:32:03,  3.51s/it, Loss=0.1340745]Training progress:   6%|▌         | 340/6000 [18:54<4:52:01,  3.10s/it, Loss=0.1340745]Training progress:   6%|▌         | 340/6000 [19:25<4:52:01,  3.10s/it, Loss=0.1501954]Training progress:   6%|▌         | 350/6000 [19:25<4:51:29,  3.10s/it, Loss=0.1501954]Training progress:   6%|▌         | 350/6000 [20:22<4:51:29,  3.10s/it, Loss=0.1201383]Training progress:   6%|▌         | 360/6000 [20:22<6:03:58,  3.87s/it, Loss=0.1201383]Training progress:   6%|▌         | 360/6000 [20:27<6:03:58,  3.87s/it, Loss=0.0839599]Training progress:   6%|▌         | 370/6000 [20:27<4:30:16,  2.88s/it, Loss=0.0839599]Training progress:   6%|▌         | 370/6000 [21:24<4:30:16,  2.88s/it, Loss=0.1503361]Training progress:   6%|▋         | 380/6000 [21:24<5:47:02,  3.71s/it, Loss=0.1503361]Training progress:   6%|▋         | 380/6000 [22:05<5:47:02,  3.71s/it, Loss=0.0930404]Training progress:   6%|▋         | 390/6000 [22:05<5:58:49,  3.84s/it, Loss=0.0930404]Training progress:   6%|▋         | 390/6000 [22:52<5:58:49,  3.84s/it, Loss=0.0781074]Training progress:   7%|▋         | 400/6000 [22:52<6:21:12,  4.08s/it, Loss=0.0781074]Training progress:   7%|▋         | 400/6000 [23:43<6:21:12,  4.08s/it, Loss=0.1232634]Training progress:   7%|▋         | 410/6000 [23:43<6:49:54,  4.40s/it, Loss=0.1232634]Training progress:   7%|▋         | 410/6000 [24:19<6:49:54,  4.40s/it, Loss=0.1454402]Training progress:   7%|▋         | 420/6000 [24:19<6:25:59,  4.15s/it, Loss=0.1454402]Training progress:   7%|▋         | 420/6000 [25:10<6:25:59,  4.15s/it, Loss=0.1673851]Training progress:   7%|▋         | 430/6000 [25:10<6:52:11,  4.44s/it, Loss=0.1673851]Training progress:   7%|▋         | 430/6000 [25:51<6:52:11,  4.44s/it, Loss=0.1623991]Training progress:   7%|▋         | 440/6000 [25:51<6:42:39,  4.35s/it, Loss=0.1623991]Training progress:   7%|▋         | 440/6000 [26:17<6:42:39,  4.35s/it, Loss=0.1487777]Training progress:   8%|▊         | 450/6000 [26:17<5:51:57,  3.80s/it, Loss=0.1487777]Training progress:   8%|▊         | 450/6000 [26:48<5:51:57,  3.80s/it, Loss=0.0962883]Training progress:   8%|▊         | 460/6000 [26:48<5:32:07,  3.60s/it, Loss=0.0962883]Training progress:   8%|▊         | 460/6000 [27:29<5:32:07,  3.60s/it, Loss=0.1120462]Training progress:   8%|▊         | 470/6000 [27:29<5:45:45,  3.75s/it, Loss=0.1120462]Training progress:   8%|▊         | 470/6000 [28:06<5:45:45,  3.75s/it, Loss=0.1298156]Training progress:   8%|▊         | 480/6000 [28:06<5:42:38,  3.72s/it, Loss=0.1298156]Training progress:   8%|▊         | 480/6000 [28:37<5:42:38,  3.72s/it, Loss=0.1782252]Training progress:   8%|▊         | 490/6000 [28:37<5:24:51,  3.54s/it, Loss=0.1782252]sdadasfa: 50 0.0 0.0 1000 1000 100 0.025
+sdadasfa: 100 0.0 0.0 1000 1000 100 0.025
+sdadasfa: 150 0.0 0.0 1000 1000 100 0.025
+sdadasfa: 200 0.0 0.0 1000 1000 100 0.025
+sdadasfa: 250 0.0 0.0 1000 1000 100 0.025
+sdadasfa: 300 0.0 0.0 1000 1000 100 0.025
+sdadasfa: 350 0.0 0.0 1000 1000 100 0.025
+sdadasfa: 400 0.0 0.0 1000 1000 100 0.025
+sdadasfa: 450 0.0 0.0 1000 1000 100 0.025
+sdadasfa: 500 0.0 0.0 1000 1000 100 0.025
+Traceback (most recent call last):
+  File "/ai-video-sh/zhongqi.yang/code/zhongqi.yang/VideoInpainting_new/worldgen/train.py", line 380, in <module>
+    training(lp.extract(args), op.extract(args), pp.extract(args), args.test_iterations, args.save_iterations, args.checkpoint_iterations, args.start_checkpoint, args.debug_from)
+  File "/ai-video-sh/zhongqi.yang/code/zhongqi.yang/VideoInpainting_new/worldgen/train.py", line 230, in training
+    distortion_map = colormap(distortion_map.detach().cpu().numpy()).to(normal.device)
+  File "/ai-video-sh/zhongqi.yang/code/zhongqi.yang/VideoInpainting_new/worldgen/utils/vis_utils.py", line 71, in colormap
+    data = np.frombuffer(fig.canvas.tostring_rgb(), dtype=np.uint8)
+AttributeError: 'FigureCanvasAgg' object has no attribute 'tostring_rgb'. Did you mean: 'tostring_argb'?
+Training progress:   8%|▊         | 490/6000 [29:08<5:27:41,  3.57s/it, Loss=0.1782252]
+/root/miniconda3/envs/sov/lib/python3.10/site-packages/_distutils_hack/__init__.py:53: UserWarning: Reliance on distutils from stdlib is deprecated. Users must rely on setuptools to provide the distutils module. Avoid importing distutils or import setuptools first, and avoid setting SETUPTOOLS_USE_DISTUTILS=stdlib. Register concerns at https://github.com/pypa/setuptools/issues/new?template=distutils-deprecation.yml
+  warnings.warn(
+Looking for config file in output/scene_test/pano_Rail_PCG_Road2_40_59__Take_249_2/cfg_args
+Config file found: output/scene_test/pano_Rail_PCG_Road2_40_59__Take_249_2/cfg_args
+Rendering output/scene_test/pano_Rail_PCG_Road2_40_59__Take_249_2
+Loading trained model at iteration 6000 [21/05 21:15:22]
+Found world_matrix.npz file, assuming Blender npz data set! [21/05 21:15:22]
+Reading all camera params [21/05 21:15:22]
+train_cams=120, test_cams=357 [21/05 21:15:22]
+Loading Training Cameras [21/05 21:15:22]
+Loading Test Cameras [21/05 21:15:24]
+Traceback (most recent call last):
+  File "/ai-video-sh/zhongqi.yang/code/zhongqi.yang/VideoInpainting_new/worldgen/render.py", line 92, in <module>
+    render_sets(model.extract(args), args.iteration, pipeline.extract(args), args.skip_train, args.skip_test)
+  File "/ai-video-sh/zhongqi.yang/code/zhongqi.yang/VideoInpainting_new/worldgen/render.py", line 66, in render_sets
+    scene = Scene(dataset, gaussians, load_iteration=iteration, shuffle=False)
+  File "/ai-video-sh/zhongqi.yang/code/zhongqi.yang/VideoInpainting_new/worldgen/scene/__init__.py", line 85, in __init__
+    self.gaussians.load_ply(os.path.join(self.model_path,
+  File "/ai-video-sh/zhongqi.yang/code/zhongqi.yang/VideoInpainting_new/worldgen/scene/gaussian_model.py", line 489, in load_ply
+    plydata = PlyData.read(path)
+  File "/root/miniconda3/envs/sov/lib/python3.10/site-packages/plyfile.py", line 157, in read
+    (must_close, stream) = _open_stream(stream, 'read')
+  File "/root/miniconda3/envs/sov/lib/python3.10/site-packages/plyfile.py", line 1347, in _open_stream
+    return (True, open(stream, read_or_write[0] + 'b'))
+FileNotFoundError: [Errno 2] No such file or directory: 'output/scene_test/pano_Rail_PCG_Road2_40_59__Take_249_2/point_cloud/iteration_6000/point_cloud.ply'
+/root/miniconda3/envs/sov/lib/python3.10/site-packages/_distutils_hack/__init__.py:53: UserWarning: Reliance on distutils from stdlib is deprecated. Users must rely on setuptools to provide the distutils module. Avoid importing distutils or import setuptools first, and avoid setting SETUPTOOLS_USE_DISTUTILS=stdlib. Register concerns at https://github.com/pypa/setuptools/issues/new?template=distutils-deprecation.yml
+  warnings.warn(
+Optimizing output/scene_test/pano_Rail_PCG_Road_27_110__Take_581_4
+Output folder: output/scene_test/pano_Rail_PCG_Road_27_110__Take_581_4
+Found world_matrix.npz file, assuming Blender npz data set!
+Reading all camera params
+train_cams=120, test_cams=357
+(512, 512) (512, 512) (512, 512) 0 120
+(512, 512) (512, 512) (512, 512) 1 120
+(512, 512) (512, 512) (512, 512) 2 120
+(512, 512) (512, 512) (512, 512) 3 120
+(512, 512) (512, 512) (512, 512) 4 120
+(512, 512) (512, 512) (512, 512) 5 120
+(512, 512) (512, 512) (512, 512) 6 120
+(512, 512) (512, 512) (512, 512) 7 120
+(512, 512) (512, 512) (512, 512) 8 120
+(512, 512) (512, 512) (512, 512) 9 120
+(512, 512) (512, 512) (512, 512) 10 120
+(512, 512) (512, 512) (512, 512) 11 120
+(512, 512) (512, 512) (512, 512) 12 120
+(512, 512) (512, 512) (512, 512) 13 120
+(512, 512) (512, 512) (512, 512) 14 120
+(512, 512) (512, 512) (512, 512) 15 120
+(512, 512) (512, 512) (512, 512) 16 120
+(512, 512) (512, 512) (512, 512) 17 120
+(512, 512) (512, 512) (512, 512) 18 120
+(512, 512) (512, 512) (512, 512) 19 120
+(512, 512) (512, 512) (512, 512) 20 120
+(512, 512) (512, 512) (512, 512) 21 120
+(512, 512) (512, 512) (512, 512) 22 120
+(512, 512) (512, 512) (512, 512) 23 120
+(512, 512) (512, 512) (512, 512) 24 120
+(512, 512) (512, 512) (512, 512) 25 120
+(512, 512) (512, 512) (512, 512) 26 120
+(512, 512) (512, 512) (512, 512) 27 120
+(512, 512) (512, 512) (512, 512) 28 120
+(512, 512) (512, 512) (512, 512) 29 120
+(512, 512) (512, 512) (512, 512) 30 120
+(512, 512) (512, 512) (512, 512) 31 120
+(512, 512) (512, 512) (512, 512) 32 120
+(512, 512) (512, 512) (512, 512) 33 120
+(512, 512) (512, 512) (512, 512) 34 120
+(512, 512) (512, 512) (512, 512) 35 120
+(512, 512) (512, 512) (512, 512) 36 120
+(512, 512) (512, 512) (512, 512) 37 120
+(512, 512) (512, 512) (512, 512) 38 120
+(512, 512) (512, 512) (512, 512) 39 120
+(512, 512) (512, 512) (512, 512) 40 120
+(512, 512) (512, 512) (512, 512) 41 120
+(512, 512) (512, 512) (512, 512) 42 120
+(512, 512) (512, 512) (512, 512) 43 120
+(512, 512) (512, 512) (512, 512) 44 120
+(512, 512) (512, 512) (512, 512) 45 120
+(512, 512) (512, 512) (512, 512) 46 120
+(512, 512) (512, 512) (512, 512) 47 120
+(512, 512) (512, 512) (512, 512) 48 120
+(512, 512) (512, 512) (512, 512) 49 120
+(512, 512) (512, 512) (512, 512) 50 120
+(512, 512) (512, 512) (512, 512) 51 120
+(512, 512) (512, 512) (512, 512) 52 120
+(512, 512) (512, 512) (512, 512) 53 120
+(512, 512) (512, 512) (512, 512) 54 120
+(512, 512) (512, 512) (512, 512) 55 120
+(512, 512) (512, 512) (512, 512) 56 120
+(512, 512) (512, 512) (512, 512) 57 120
+(512, 512) (512, 512) (512, 512) 58 120
+(512, 512) (512, 512) (512, 512) 59 120
+(512, 512) (512, 512) (512, 512) 60 120
+(512, 512) (512, 512) (512, 512) 61 120
+(512, 512) (512, 512) (512, 512) 62 120
+(512, 512) (512, 512) (512, 512) 63 120
+(512, 512) (512, 512) (512, 512) 64 120
+(512, 512) (512, 512) (512, 512) 65 120
+(512, 512) (512, 512) (512, 512) 66 120
+(512, 512) (512, 512) (512, 512) 67 120
+(512, 512) (512, 512) (512, 512) 68 120
+(512, 512) (512, 512) (512, 512) 69 120
+(512, 512) (512, 512) (512, 512) 70 120
+(512, 512) (512, 512) (512, 512) 71 120
+(512, 512) (512, 512) (512, 512) 72 120
+(512, 512) (512, 512) (512, 512) 73 120
+(512, 512) (512, 512) (512, 512) 74 120
+(512, 512) (512, 512) (512, 512) 75 120
+(512, 512) (512, 512) (512, 512) 76 120
+(512, 512) (512, 512) (512, 512) 77 120
+(512, 512) (512, 512) (512, 512) 78 120
+(512, 512) (512, 512) (512, 512) 79 120
+(512, 512) (512, 512) (512, 512) 80 120
+(512, 512) (512, 512) (512, 512) 81 120
+(512, 512) (512, 512) (512, 512) 82 120
+(512, 512) (512, 512) (512, 512) 83 120
+(512, 512) (512, 512) (512, 512) 84 120
+(512, 512) (512, 512) (512, 512) 85 120
+(512, 512) (512, 512) (512, 512) 86 120
+(512, 512) (512, 512) (512, 512) 87 120
+(512, 512) (512, 512) (512, 512) 88 120
+(512, 512) (512, 512) (512, 512) 89 120
+(512, 512) (512, 512) (512, 512) 90 120
+(512, 512) (512, 512) (512, 512) 91 120
+(512, 512) (512, 512) (512, 512) 92 120
+(512, 512) (512, 512) (512, 512) 93 120
+(512, 512) (512, 512) (512, 512) 94 120
+(512, 512) (512, 512) (512, 512) 95 120
+(512, 512) (512, 512) (512, 512) 96 120
+(512, 512) (512, 512) (512, 512) 97 120
+(512, 512) (512, 512) (512, 512) 98 120
+(512, 512) (512, 512) (512, 512) 99 120
+(512, 512) (512, 512) (512, 512) 100 120
+(512, 512) (512, 512) (512, 512) 101 120
+(512, 512) (512, 512) (512, 512) 102 120
+(512, 512) (512, 512) (512, 512) 103 120
+(512, 512) (512, 512) (512, 512) 104 120
+(512, 512) (512, 512) (512, 512) 105 120
+(512, 512) (512, 512) (512, 512) 106 120
+(512, 512) (512, 512) (512, 512) 107 120
+(512, 512) (512, 512) (512, 512) 108 120
+(512, 512) (512, 512) (512, 512) 109 120
+(512, 512) (512, 512) (512, 512) 110 120
+(512, 512) (512, 512) (512, 512) 111 120
+(512, 512) (512, 512) (512, 512) 112 120
+(512, 512) (512, 512) (512, 512) 113 120
+(512, 512) (512, 512) (512, 512) 114 120
+(512, 512) (512, 512) (512, 512) 115 120
+(512, 512) (512, 512) (512, 512) 116 120
+(512, 512) (512, 512) (512, 512) 117 120
+(512, 512) (512, 512) (512, 512) 118 120
+(512, 512) (512, 512) (512, 512) 119 120
+Generating point cloud from depth map (EXR) (1445443)...
+Loading Training Cameras
+Loading Test Cameras
+Number of points at initialisation :  1445443
+
+
+spatial lr scale: 0.25 0.00016 0.0025 0.01 0.0005 0.0002
+
+
+Computing 3D filter
+Training progress:   0%|          | 0/6000 [00:00<?, ?it/s]Training progress:   0%|          | 0/6000 [00:20<?, ?it/s, Loss=0.4104062]Training progress:   0%|          | 10/6000 [00:20<3:27:06,  2.07s/it, Loss=0.4104062]Training progress:   0%|          | 10/6000 [00:56<3:27:06,  2.07s/it, Loss=0.4807263]Training progress:   0%|          | 20/6000 [00:56<4:55:06,  2.96s/it, Loss=0.4807263]Training progress:   0%|          | 20/6000 [01:27<4:55:06,  2.96s/it, Loss=0.4978024]Training progress:   0%|          | 30/6000 [01:27<5:02:10,  3.04s/it, Loss=0.4978024]Training progress:   0%|          | 30/6000 [02:04<5:02:10,  3.04s/it, Loss=0.4831684]Training progress:   1%|          | 40/6000 [02:04<5:25:04,  3.27s/it, Loss=0.4831684]Training progress:   1%|          | 40/6000 [02:45<5:25:04,  3.27s/it, Loss=0.5143088]Training progress:   1%|          | 50/6000 [02:45<5:53:53,  3.57s/it, Loss=0.5143088]Training progress:   1%|          | 50/6000 [02:55<5:53:53,  3.57s/it, Loss=0.4568723]Training progress:   1%|          | 60/6000 [02:55<4:28:22,  2.71s/it, Loss=0.4568723]Training progress:   1%|          | 60/6000 [03:36<4:28:22,  2.71s/it, Loss=0.4566611]Training progress:   1%|          | 70/6000 [03:36<5:13:52,  3.18s/it, Loss=0.4566611]Training progress:   1%|          | 70/6000 [03:57<5:13:52,  3.18s/it, Loss=0.4083804]Training progress:   1%|▏         | 80/6000 [03:57<4:38:01,  2.82s/it, Loss=0.4083804]Training progress:   1%|▏         | 80/6000 [04:58<4:38:01,  2.82s/it, Loss=0.5259513]Training progress:   2%|▏         | 90/6000 [04:58<6:19:46,  3.86s/it, Loss=0.5259513]Training progress:   2%|▏         | 90/6000 [05:20<6:19:46,  3.86s/it, Loss=0.4893407]Training progress:   2%|▏         | 100/6000 [05:20<5:27:18,  3.33s/it, Loss=0.4893407]Training progress:   2%|▏         | 100/6000 [06:01<5:27:18,  3.33s/it, Loss=0.5512406]Training progress:   2%|▏         | 110/6000 [06:01<5:51:15,  3.58s/it, Loss=0.5512406]Training progress:   2%|▏         | 110/6000 [06:22<5:51:15,  3.58s/it, Loss=0.3973870]Training progress:   2%|▏         | 120/6000 [06:22<5:05:47,  3.12s/it, Loss=0.3973870]Training progress:   2%|▏         | 120/6000 [07:09<5:05:47,  3.12s/it, Loss=0.4399382]Training progress:   2%|▏         | 130/6000 [07:09<5:52:01,  3.60s/it, Loss=0.4399382]Training progress:   2%|▏         | 130/6000 [07:40<5:52:01,  3.60s/it, Loss=0.3562533]Training progress:   2%|▏         | 140/6000 [07:40<5:37:10,  3.45s/it, Loss=0.3562533]Training progress:   2%|▏         | 140/6000 [08:16<5:37:10,  3.45s/it, Loss=0.4909704]Training progress:   2%|▎         | 150/6000 [08:16<5:40:37,  3.49s/it, Loss=0.4909704]Training progress:   2%|▎         | 150/6000 [08:37<5:40:37,  3.49s/it, Loss=0.4511436]Training progress:   3%|▎         | 160/6000 [08:37<5:00:27,  3.09s/it, Loss=0.4511436]Training progress:   3%|▎         | 160/6000 [08:54<5:00:27,  3.09s/it, Loss=0.4730740]Training progress:   3%|▎         | 170/6000 [08:54<4:17:35,  2.65s/it, Loss=0.4730740]Training progress:   3%|▎         | 170/6000 [09:25<4:17:35,  2.65s/it, Loss=0.4353257]Training progress:   3%|▎         | 180/6000 [09:25<4:29:54,  2.78s/it, Loss=0.4353257]Training progress:   3%|▎         | 180/6000 [09:46<4:29:54,  2.78s/it, Loss=0.4596776]Training progress:   3%|▎         | 190/6000 [09:46<4:10:44,  2.59s/it, Loss=0.4596776]Training progress:   3%|▎         | 190/6000 [10:33<4:10:44,  2.59s/it, Loss=0.5311425]Training progress:   3%|▎         | 200/6000 [10:33<5:11:56,  3.23s/it, Loss=0.5311425]Training progress:   3%|▎         | 200/6000 [11:05<5:11:56,  3.23s/it, Loss=0.5603598]Training progress:   4%|▎         | 210/6000 [11:05<5:09:40,  3.21s/it, Loss=0.5603598]Training progress:   4%|▎         | 210/6000 [11:31<5:09:40,  3.21s/it, Loss=0.4192589]Training progress:   4%|▎         | 220/6000 [11:31<4:51:49,  3.03s/it, Loss=0.4192589]Training progress:   4%|▎         | 220/6000 [11:57<4:51:49,  3.03s/it, Loss=0.4740830]Training progress:   4%|▍         | 230/6000 [11:57<4:39:19,  2.90s/it, Loss=0.4740830]Training progress:   4%|▍         | 230/6000 [12:39<4:39:19,  2.90s/it, Loss=0.5282663]Training progress:   4%|▍         | 240/6000 [12:39<5:14:38,  3.28s/it, Loss=0.5282663]Training progress:   4%|▍         | 240/6000 [12:59<5:14:38,  3.28s/it, Loss=0.4881133]Training progress:   4%|▍         | 250/6000 [12:59<4:39:03,  2.91s/it, Loss=0.4881133]Training progress:   4%|▍         | 250/6000 [13:35<4:39:03,  2.91s/it, Loss=0.5142962]Training progress:   4%|▍         | 260/6000 [13:35<4:58:54,  3.12s/it, Loss=0.5142962]Training progress:   4%|▍         | 260/6000 [14:17<4:58:54,  3.12s/it, Loss=0.4288903]Training progress:   4%|▍         | 270/6000 [14:17<5:27:46,  3.43s/it, Loss=0.4288903]Training progress:   4%|▍         | 270/6000 [15:18<5:27:46,  3.43s/it, Loss=0.5303040]Training progress:   5%|▍         | 280/6000 [15:18<6:44:42,  4.25s/it, Loss=0.5303040]Training progress:   5%|▍         | 280/6000 [16:09<6:44:42,  4.25s/it, Loss=0.4873763]Training progress:   5%|▍         | 290/6000 [16:09<7:08:58,  4.51s/it, Loss=0.4873763]Training progress:   5%|▍         | 290/6000 [16:41<7:08:58,  4.51s/it, Loss=0.5054507]Training progress:   5%|▌         | 300/6000 [16:41<6:28:46,  4.09s/it, Loss=0.5054507]Training progress:   5%|▌         | 300/6000 [17:27<6:28:46,  4.09s/it, Loss=0.4896183]Training progress:   5%|▌         | 310/6000 [17:27<6:42:54,  4.25s/it, Loss=0.4896183]Training progress:   5%|▌         | 310/6000 [18:28<6:42:54,  4.25s/it, Loss=0.5227510]Training progress:   5%|▌         | 320/6000 [18:28<7:36:03,  4.82s/it, Loss=0.5227510]Training progress:   5%|▌         | 320/6000 [18:54<7:36:03,  4.82s/it, Loss=0.4497775]Training progress:   6%|▌         | 330/6000 [18:54<6:32:31,  4.15s/it, Loss=0.4497775]Training progress:   6%|▌         | 330/6000 [19:56<6:32:31,  4.15s/it, Loss=0.4635696]Training progress:   6%|▌         | 340/6000 [19:56<7:28:21,  4.75s/it, Loss=0.4635696]Training progress:   6%|▌         | 340/6000 [20:52<7:28:21,  4.75s/it, Loss=0.4597655]Training progress:   6%|▌         | 350/6000 [20:52<7:52:20,  5.02s/it, Loss=0.4597655]Training progress:   6%|▌         | 350/6000 [21:38<7:52:20,  5.02s/it, Loss=0.4175075]Training progress:   6%|▌         | 360/6000 [21:38<7:40:04,  4.89s/it, Loss=0.4175075]Training progress:   6%|▌         | 360/6000 [22:10<7:40:04,  4.89s/it, Loss=0.4030171]Training progress:   6%|▌         | 370/6000 [22:10<6:51:02,  4.38s/it, Loss=0.4030171]Training progress:   6%|▌         | 370/6000 [23:07<6:51:02,  4.38s/it, Loss=0.4498326]Training progress:   6%|▋         | 380/6000 [23:07<7:26:32,  4.77s/it, Loss=0.4498326]Training progress:   6%|▋         | 380/6000 [23:33<7:26:32,  4.77s/it, Loss=0.3391858]Training progress:   6%|▋         | 390/6000 [23:33<6:25:18,  4.12s/it, Loss=0.3391858]Training progress:   6%|▋         | 390/6000 [24:14<6:25:18,  4.12s/it, Loss=0.3806962]Training progress:   7%|▋         | 400/6000 [24:14<6:24:13,  4.12s/it, Loss=0.3806962]Training progress:   7%|▋         | 400/6000 [24:50<6:24:13,  4.12s/it, Loss=0.4333082]Training progress:   7%|▋         | 410/6000 [24:50<6:08:28,  3.95s/it, Loss=0.4333082]Training progress:   7%|▋         | 410/6000 [25:06<6:08:28,  3.95s/it, Loss=0.4626168]Training progress:   7%|▋         | 420/6000 [25:06<5:01:35,  3.24s/it, Loss=0.4626168]Training progress:   7%|▋         | 420/6000 [25:36<5:01:35,  3.24s/it, Loss=0.5223771]Training progress:   7%|▋         | 430/6000 [25:36<4:56:32,  3.19s/it, Loss=0.5223771]Training progress:   7%|▋         | 430/6000 [26:18<4:56:32,  3.19s/it, Loss=0.4825243]Training progress:   7%|▋         | 440/6000 [26:18<5:22:16,  3.48s/it, Loss=0.4825243]Training progress:   7%|▋         | 440/6000 [26:48<5:22:16,  3.48s/it, Loss=0.4959953]Training progress:   8%|▊         | 450/6000 [26:48<5:10:19,  3.35s/it, Loss=0.4959953]Training progress:   8%|▊         | 450/6000 [27:20<5:10:19,  3.35s/it, Loss=0.3968453]Training progress:   8%|▊         | 460/6000 [27:20<5:05:13,  3.31s/it, Loss=0.3968453]Training progress:   8%|▊         | 460/6000 [27:53<5:05:13,  3.31s/it, Loss=0.4182757]Training progress:   8%|▊         | 470/6000 [27:53<5:03:35,  3.29s/it, Loss=0.4182757]Training progress:   8%|▊         | 470/6000 [28:09<5:03:35,  3.29s/it, Loss=0.4900649]Training progress:   8%|▊         | 480/6000 [28:09<4:15:59,  2.78s/it, Loss=0.4900649]Training progress:   8%|▊         | 480/6000 [28:35<4:15:59,  2.78s/it, Loss=0.5372731]Training progress:   8%|▊         | 490/6000 [28:35<4:10:36,  2.73s/it, Loss=0.5372731]sdadasfa: 50 0.0 0.0 1000 1000 100 0.025
+sdadasfa: 100 0.0 0.0 1000 1000 100 0.025
+sdadasfa: 150 0.0 0.0 1000 1000 100 0.025
+sdadasfa: 200 0.0 0.0 1000 1000 100 0.025
+sdadasfa: 250 0.0 0.0 1000 1000 100 0.025
+sdadasfa: 300 0.0 0.0 1000 1000 100 0.025
+sdadasfa: 350 0.0 0.0 1000 1000 100 0.025
+sdadasfa: 400 0.0 0.0 1000 1000 100 0.025
+sdadasfa: 450 0.0 0.0 1000 1000 100 0.025
+sdadasfa: 500 0.0 0.0 1000 1000 100 0.025
+Traceback (most recent call last):
+  File "/ai-video-sh/zhongqi.yang/code/zhongqi.yang/VideoInpainting_new/worldgen/train.py", line 380, in <module>
+    training(lp.extract(args), op.extract(args), pp.extract(args), args.test_iterations, args.save_iterations, args.checkpoint_iterations, args.start_checkpoint, args.debug_from)
+  File "/ai-video-sh/zhongqi.yang/code/zhongqi.yang/VideoInpainting_new/worldgen/train.py", line 230, in training
+    distortion_map = colormap(distortion_map.detach().cpu().numpy()).to(normal.device)
+  File "/ai-video-sh/zhongqi.yang/code/zhongqi.yang/VideoInpainting_new/worldgen/utils/vis_utils.py", line 71, in colormap
+    data = np.frombuffer(fig.canvas.tostring_rgb(), dtype=np.uint8)
+AttributeError: 'FigureCanvasAgg' object has no attribute 'tostring_rgb'. Did you mean: 'tostring_argb'?
+Training progress:   8%|▊         | 490/6000 [29:17<5:29:19,  3.59s/it, Loss=0.5372731]
+/root/miniconda3/envs/sov/lib/python3.10/site-packages/_distutils_hack/__init__.py:53: UserWarning: Reliance on distutils from stdlib is deprecated. Users must rely on setuptools to provide the distutils module. Avoid importing distutils or import setuptools first, and avoid setting SETUPTOOLS_USE_DISTUTILS=stdlib. Register concerns at https://github.com/pypa/setuptools/issues/new?template=distutils-deprecation.yml
+  warnings.warn(
+Looking for config file in output/scene_test/pano_Rail_PCG_Road_27_110__Take_581_4/cfg_args
+Config file found: output/scene_test/pano_Rail_PCG_Road_27_110__Take_581_4/cfg_args
+Rendering output/scene_test/pano_Rail_PCG_Road_27_110__Take_581_4
+Loading trained model at iteration 6000 [21/05 21:45:34]
+Found world_matrix.npz file, assuming Blender npz data set! [21/05 21:45:34]
+Reading all camera params [21/05 21:45:34]
+train_cams=120, test_cams=357 [21/05 21:45:34]
+Loading Training Cameras [21/05 21:45:34]
+Loading Test Cameras [21/05 21:45:36]
+Traceback (most recent call last):
+  File "/ai-video-sh/zhongqi.yang/code/zhongqi.yang/VideoInpainting_new/worldgen/render.py", line 92, in <module>
+    render_sets(model.extract(args), args.iteration, pipeline.extract(args), args.skip_train, args.skip_test)
+  File "/ai-video-sh/zhongqi.yang/code/zhongqi.yang/VideoInpainting_new/worldgen/render.py", line 66, in render_sets
+    scene = Scene(dataset, gaussians, load_iteration=iteration, shuffle=False)
+  File "/ai-video-sh/zhongqi.yang/code/zhongqi.yang/VideoInpainting_new/worldgen/scene/__init__.py", line 85, in __init__
+    self.gaussians.load_ply(os.path.join(self.model_path,
+  File "/ai-video-sh/zhongqi.yang/code/zhongqi.yang/VideoInpainting_new/worldgen/scene/gaussian_model.py", line 489, in load_ply
+    plydata = PlyData.read(path)
+  File "/root/miniconda3/envs/sov/lib/python3.10/site-packages/plyfile.py", line 157, in read
+    (must_close, stream) = _open_stream(stream, 'read')
+  File "/root/miniconda3/envs/sov/lib/python3.10/site-packages/plyfile.py", line 1347, in _open_stream
+    return (True, open(stream, read_or_write[0] + 'b'))
+FileNotFoundError: [Errno 2] No such file or directory: 'output/scene_test/pano_Rail_PCG_Road_27_110__Take_581_4/point_cloud/iteration_6000/point_cloud.ply'
+/root/miniconda3/envs/sov/lib/python3.10/site-packages/_distutils_hack/__init__.py:53: UserWarning: Reliance on distutils from stdlib is deprecated. Users must rely on setuptools to provide the distutils module. Avoid importing distutils or import setuptools first, and avoid setting SETUPTOOLS_USE_DISTUTILS=stdlib. Register concerns at https://github.com/pypa/setuptools/issues/new?template=distutils-deprecation.yml
+  warnings.warn(
+Optimizing output/scene_test/pano_Rail_PCG_Road_2_71__Take_191_3
+Output folder: output/scene_test/pano_Rail_PCG_Road_2_71__Take_191_3
+Found world_matrix.npz file, assuming Blender npz data set!
+Reading all camera params
+train_cams=120, test_cams=357
+(512, 512) (512, 512) (512, 512) 0 120
+(512, 512) (512, 512) (512, 512) 1 120
+(512, 512) (512, 512) (512, 512) 2 120
+(512, 512) (512, 512) (512, 512) 3 120
+(512, 512) (512, 512) (512, 512) 4 120
+(512, 512) (512, 512) (512, 512) 5 120
+(512, 512) (512, 512) (512, 512) 6 120
+(512, 512) (512, 512) (512, 512) 7 120
+(512, 512) (512, 512) (512, 512) 8 120
+(512, 512) (512, 512) (512, 512) 9 120
+(512, 512) (512, 512) (512, 512) 10 120
+(512, 512) (512, 512) (512, 512) 11 120
+(512, 512) (512, 512) (512, 512) 12 120
+(512, 512) (512, 512) (512, 512) 13 120
+(512, 512) (512, 512) (512, 512) 14 120
+(512, 512) (512, 512) (512, 512) 15 120
+(512, 512) (512, 512) (512, 512) 16 120
+(512, 512) (512, 512) (512, 512) 17 120
+(512, 512) (512, 512) (512, 512) 18 120
+(512, 512) (512, 512) (512, 512) 19 120
+(512, 512) (512, 512) (512, 512) 20 120
+(512, 512) (512, 512) (512, 512) 21 120
+(512, 512) (512, 512) (512, 512) 22 120
+(512, 512) (512, 512) (512, 512) 23 120
+(512, 512) (512, 512) (512, 512) 24 120
+(512, 512) (512, 512) (512, 512) 25 120
+(512, 512) (512, 512) (512, 512) 26 120
+(512, 512) (512, 512) (512, 512) 27 120
+(512, 512) (512, 512) (512, 512) 28 120
+(512, 512) (512, 512) (512, 512) 29 120
+(512, 512) (512, 512) (512, 512) 30 120
+(512, 512) (512, 512) (512, 512) 31 120
+(512, 512) (512, 512) (512, 512) 32 120
+(512, 512) (512, 512) (512, 512) 33 120
+(512, 512) (512, 512) (512, 512) 34 120
+(512, 512) (512, 512) (512, 512) 35 120
+(512, 512) (512, 512) (512, 512) 36 120
+(512, 512) (512, 512) (512, 512) 37 120
+(512, 512) (512, 512) (512, 512) 38 120
+(512, 512) (512, 512) (512, 512) 39 120
+(512, 512) (512, 512) (512, 512) 40 120
+(512, 512) (512, 512) (512, 512) 41 120
+(512, 512) (512, 512) (512, 512) 42 120
+(512, 512) (512, 512) (512, 512) 43 120
+(512, 512) (512, 512) (512, 512) 44 120
+(512, 512) (512, 512) (512, 512) 45 120
+(512, 512) (512, 512) (512, 512) 46 120
+(512, 512) (512, 512) (512, 512) 47 120
+(512, 512) (512, 512) (512, 512) 48 120
+(512, 512) (512, 512) (512, 512) 49 120
+(512, 512) (512, 512) (512, 512) 50 120
+(512, 512) (512, 512) (512, 512) 51 120
+(512, 512) (512, 512) (512, 512) 52 120
+(512, 512) (512, 512) (512, 512) 53 120
+(512, 512) (512, 512) (512, 512) 54 120
+(512, 512) (512, 512) (512, 512) 55 120
+(512, 512) (512, 512) (512, 512) 56 120
+(512, 512) (512, 512) (512, 512) 57 120
+(512, 512) (512, 512) (512, 512) 58 120
+(512, 512) (512, 512) (512, 512) 59 120
+(512, 512) (512, 512) (512, 512) 60 120
+(512, 512) (512, 512) (512, 512) 61 120
+(512, 512) (512, 512) (512, 512) 62 120
+(512, 512) (512, 512) (512, 512) 63 120
+(512, 512) (512, 512) (512, 512) 64 120
+(512, 512) (512, 512) (512, 512) 65 120
+(512, 512) (512, 512) (512, 512) 66 120
+(512, 512) (512, 512) (512, 512) 67 120
+(512, 512) (512, 512) (512, 512) 68 120
+(512, 512) (512, 512) (512, 512) 69 120
+(512, 512) (512, 512) (512, 512) 70 120
+(512, 512) (512, 512) (512, 512) 71 120
+(512, 512) (512, 512) (512, 512) 72 120
+(512, 512) (512, 512) (512, 512) 73 120
+(512, 512) (512, 512) (512, 512) 74 120
+(512, 512) (512, 512) (512, 512) 75 120
+(512, 512) (512, 512) (512, 512) 76 120
+(512, 512) (512, 512) (512, 512) 77 120
+(512, 512) (512, 512) (512, 512) 78 120
+(512, 512) (512, 512) (512, 512) 79 120
+(512, 512) (512, 512) (512, 512) 80 120
+(512, 512) (512, 512) (512, 512) 81 120
+(512, 512) (512, 512) (512, 512) 82 120
+(512, 512) (512, 512) (512, 512) 83 120
+(512, 512) (512, 512) (512, 512) 84 120
+(512, 512) (512, 512) (512, 512) 85 120
+(512, 512) (512, 512) (512, 512) 86 120
+(512, 512) (512, 512) (512, 512) 87 120
+(512, 512) (512, 512) (512, 512) 88 120
+(512, 512) (512, 512) (512, 512) 89 120
+(512, 512) (512, 512) (512, 512) 90 120
+(512, 512) (512, 512) (512, 512) 91 120
+(512, 512) (512, 512) (512, 512) 92 120
+(512, 512) (512, 512) (512, 512) 93 120
+(512, 512) (512, 512) (512, 512) 94 120
+(512, 512) (512, 512) (512, 512) 95 120
+(512, 512) (512, 512) (512, 512) 96 120
+(512, 512) (512, 512) (512, 512) 97 120
+(512, 512) (512, 512) (512, 512) 98 120
+(512, 512) (512, 512) (512, 512) 99 120
+(512, 512) (512, 512) (512, 512) 100 120
+(512, 512) (512, 512) (512, 512) 101 120
+(512, 512) (512, 512) (512, 512) 102 120
+(512, 512) (512, 512) (512, 512) 103 120
+(512, 512) (512, 512) (512, 512) 104 120
+(512, 512) (512, 512) (512, 512) 105 120
+(512, 512) (512, 512) (512, 512) 106 120
+(512, 512) (512, 512) (512, 512) 107 120
+(512, 512) (512, 512) (512, 512) 108 120
+(512, 512) (512, 512) (512, 512) 109 120
+(512, 512) (512, 512) (512, 512) 110 120
+(512, 512) (512, 512) (512, 512) 111 120
+(512, 512) (512, 512) (512, 512) 112 120
+(512, 512) (512, 512) (512, 512) 113 120
+(512, 512) (512, 512) (512, 512) 114 120
+(512, 512) (512, 512) (512, 512) 115 120
+(512, 512) (512, 512) (512, 512) 116 120
+(512, 512) (512, 512) (512, 512) 117 120
+(512, 512) (512, 512) (512, 512) 118 120
+(512, 512) (512, 512) (512, 512) 119 120
+Generating point cloud from depth map (EXR) (0)...
+Loading Training Cameras
+Loading Test Cameras
+Number of points at initialisation :  0
+
+
+spatial lr scale: 0.25 0.00016 0.0025 0.01 0.0005 0.0002
+
+
+Computing 3D filter
+Traceback (most recent call last):
+  File "/ai-video-sh/zhongqi.yang/code/zhongqi.yang/VideoInpainting_new/worldgen/train.py", line 380, in <module>
+    training(lp.extract(args), op.extract(args), pp.extract(args), args.test_iterations, args.save_iterations, args.checkpoint_iterations, args.start_checkpoint, args.debug_from)
+  File "/ai-video-sh/zhongqi.yang/code/zhongqi.yang/VideoInpainting_new/worldgen/train.py", line 120, in training
+    gaussians.compute_3D_filter(cameras=trainCameras)
+  File "/root/miniconda3/envs/sov/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "/ai-video-sh/zhongqi.yang/code/zhongqi.yang/VideoInpainting_new/worldgen/scene/gaussian_model.py", line 276, in compute_3D_filter
+    R = torch.tensor(camera.R, device=xyz.device, dtype=torch.float32)
+RuntimeError: CUDA error: invalid configuration argument
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+/root/miniconda3/envs/sov/lib/python3.10/site-packages/_distutils_hack/__init__.py:53: UserWarning: Reliance on distutils from stdlib is deprecated. Users must rely on setuptools to provide the distutils module. Avoid importing distutils or import setuptools first, and avoid setting SETUPTOOLS_USE_DISTUTILS=stdlib. Register concerns at https://github.com/pypa/setuptools/issues/new?template=distutils-deprecation.yml
+  warnings.warn(
+Looking for config file in output/scene_test/pano_Rail_PCG_Road_2_71__Take_191_3/cfg_args
+Config file found: output/scene_test/pano_Rail_PCG_Road_2_71__Take_191_3/cfg_args
+Rendering output/scene_test/pano_Rail_PCG_Road_2_71__Take_191_3
+Loading trained model at iteration 6000 [21/05 21:46:22]
+Found world_matrix.npz file, assuming Blender npz data set! [21/05 21:46:22]
+Reading all camera params [21/05 21:46:22]
+train_cams=120, test_cams=357 [21/05 21:46:22]
+Loading Training Cameras [21/05 21:46:22]
+Loading Test Cameras [21/05 21:46:24]
+Traceback (most recent call last):
+  File "/ai-video-sh/zhongqi.yang/code/zhongqi.yang/VideoInpainting_new/worldgen/render.py", line 92, in <module>
+    render_sets(model.extract(args), args.iteration, pipeline.extract(args), args.skip_train, args.skip_test)
+  File "/ai-video-sh/zhongqi.yang/code/zhongqi.yang/VideoInpainting_new/worldgen/render.py", line 66, in render_sets
+    scene = Scene(dataset, gaussians, load_iteration=iteration, shuffle=False)
+  File "/ai-video-sh/zhongqi.yang/code/zhongqi.yang/VideoInpainting_new/worldgen/scene/__init__.py", line 85, in __init__
+    self.gaussians.load_ply(os.path.join(self.model_path,
+  File "/ai-video-sh/zhongqi.yang/code/zhongqi.yang/VideoInpainting_new/worldgen/scene/gaussian_model.py", line 489, in load_ply
+    plydata = PlyData.read(path)
+  File "/root/miniconda3/envs/sov/lib/python3.10/site-packages/plyfile.py", line 157, in read
+    (must_close, stream) = _open_stream(stream, 'read')
+  File "/root/miniconda3/envs/sov/lib/python3.10/site-packages/plyfile.py", line 1347, in _open_stream
+    return (True, open(stream, read_or_write[0] + 'b'))
+FileNotFoundError: [Errno 2] No such file or directory: 'output/scene_test/pano_Rail_PCG_Road_2_71__Take_191_3/point_cloud/iteration_6000/point_cloud.ply'
+/root/miniconda3/envs/sov/lib/python3.10/site-packages/_distutils_hack/__init__.py:53: UserWarning: Reliance on distutils from stdlib is deprecated. Users must rely on setuptools to provide the distutils module. Avoid importing distutils or import setuptools first, and avoid setting SETUPTOOLS_USE_DISTUTILS=stdlib. Register concerns at https://github.com/pypa/setuptools/issues/new?template=distutils-deprecation.yml
+  warnings.warn(
+Optimizing output/scene_test/pano_Rail_Road_3_Take_190_0
+Output folder: output/scene_test/pano_Rail_Road_3_Take_190_0
+Found world_matrix.npz file, assuming Blender npz data set!
+Reading all camera params
+train_cams=120, test_cams=357
+(512, 512) (512, 512) (512, 512) 0 120
+(512, 512) (512, 512) (512, 512) 1 120
+(512, 512) (512, 512) (512, 512) 2 120
+(512, 512) (512, 512) (512, 512) 3 120
+(512, 512) (512, 512) (512, 512) 4 120
+(512, 512) (512, 512) (512, 512) 5 120
+(512, 512) (512, 512) (512, 512) 6 120
+(512, 512) (512, 512) (512, 512) 7 120
+(512, 512) (512, 512) (512, 512) 8 120
+(512, 512) (512, 512) (512, 512) 9 120
+(512, 512) (512, 512) (512, 512) 10 120
+(512, 512) (512, 512) (512, 512) 11 120
+(512, 512) (512, 512) (512, 512) 12 120
+(512, 512) (512, 512) (512, 512) 13 120
+(512, 512) (512, 512) (512, 512) 14 120
+(512, 512) (512, 512) (512, 512) 15 120
+(512, 512) (512, 512) (512, 512) 16 120
+(512, 512) (512, 512) (512, 512) 17 120
+(512, 512) (512, 512) (512, 512) 18 120
+(512, 512) (512, 512) (512, 512) 19 120
+(512, 512) (512, 512) (512, 512) 20 120
+(512, 512) (512, 512) (512, 512) 21 120
+(512, 512) (512, 512) (512, 512) 22 120
+(512, 512) (512, 512) (512, 512) 23 120
+(512, 512) (512, 512) (512, 512) 24 120
+(512, 512) (512, 512) (512, 512) 25 120
+(512, 512) (512, 512) (512, 512) 26 120
+(512, 512) (512, 512) (512, 512) 27 120
+(512, 512) (512, 512) (512, 512) 28 120
+(512, 512) (512, 512) (512, 512) 29 120
+(512, 512) (512, 512) (512, 512) 30 120
+(512, 512) (512, 512) (512, 512) 31 120
+(512, 512) (512, 512) (512, 512) 32 120
+(512, 512) (512, 512) (512, 512) 33 120
+(512, 512) (512, 512) (512, 512) 34 120
+(512, 512) (512, 512) (512, 512) 35 120
+(512, 512) (512, 512) (512, 512) 36 120
+(512, 512) (512, 512) (512, 512) 37 120
+(512, 512) (512, 512) (512, 512) 38 120
+(512, 512) (512, 512) (512, 512) 39 120
+(512, 512) (512, 512) (512, 512) 40 120
+(512, 512) (512, 512) (512, 512) 41 120
+(512, 512) (512, 512) (512, 512) 42 120
+(512, 512) (512, 512) (512, 512) 43 120
+(512, 512) (512, 512) (512, 512) 44 120
+(512, 512) (512, 512) (512, 512) 45 120
+(512, 512) (512, 512) (512, 512) 46 120
+(512, 512) (512, 512) (512, 512) 47 120
+(512, 512) (512, 512) (512, 512) 48 120
+(512, 512) (512, 512) (512, 512) 49 120
+(512, 512) (512, 512) (512, 512) 50 120
+(512, 512) (512, 512) (512, 512) 51 120
+(512, 512) (512, 512) (512, 512) 52 120
+(512, 512) (512, 512) (512, 512) 53 120
+(512, 512) (512, 512) (512, 512) 54 120
+(512, 512) (512, 512) (512, 512) 55 120
+(512, 512) (512, 512) (512, 512) 56 120
+(512, 512) (512, 512) (512, 512) 57 120
+(512, 512) (512, 512) (512, 512) 58 120
+(512, 512) (512, 512) (512, 512) 59 120
+(512, 512) (512, 512) (512, 512) 60 120
+(512, 512) (512, 512) (512, 512) 61 120
+(512, 512) (512, 512) (512, 512) 62 120
+(512, 512) (512, 512) (512, 512) 63 120
+(512, 512) (512, 512) (512, 512) 64 120
+(512, 512) (512, 512) (512, 512) 65 120
+(512, 512) (512, 512) (512, 512) 66 120
+(512, 512) (512, 512) (512, 512) 67 120
+(512, 512) (512, 512) (512, 512) 68 120
+(512, 512) (512, 512) (512, 512) 69 120
+(512, 512) (512, 512) (512, 512) 70 120
+(512, 512) (512, 512) (512, 512) 71 120
+(512, 512) (512, 512) (512, 512) 72 120
+(512, 512) (512, 512) (512, 512) 73 120
+(512, 512) (512, 512) (512, 512) 74 120
+(512, 512) (512, 512) (512, 512) 75 120
+(512, 512) (512, 512) (512, 512) 76 120
+(512, 512) (512, 512) (512, 512) 77 120
+(512, 512) (512, 512) (512, 512) 78 120
+(512, 512) (512, 512) (512, 512) 79 120
+(512, 512) (512, 512) (512, 512) 80 120
+(512, 512) (512, 512) (512, 512) 81 120
+(512, 512) (512, 512) (512, 512) 82 120
+(512, 512) (512, 512) (512, 512) 83 120
+(512, 512) (512, 512) (512, 512) 84 120
+(512, 512) (512, 512) (512, 512) 85 120
+(512, 512) (512, 512) (512, 512) 86 120
+(512, 512) (512, 512) (512, 512) 87 120
+(512, 512) (512, 512) (512, 512) 88 120
+(512, 512) (512, 512) (512, 512) 89 120
+(512, 512) (512, 512) (512, 512) 90 120
+(512, 512) (512, 512) (512, 512) 91 120
+(512, 512) (512, 512) (512, 512) 92 120
+(512, 512) (512, 512) (512, 512) 93 120
+(512, 512) (512, 512) (512, 512) 94 120
+(512, 512) (512, 512) (512, 512) 95 120
+(512, 512) (512, 512) (512, 512) 96 120
+(512, 512) (512, 512) (512, 512) 97 120
+(512, 512) (512, 512) (512, 512) 98 120
+(512, 512) (512, 512) (512, 512) 99 120
+(512, 512) (512, 512) (512, 512) 100 120
+(512, 512) (512, 512) (512, 512) 101 120
+(512, 512) (512, 512) (512, 512) 102 120
+(512, 512) (512, 512) (512, 512) 103 120
+(512, 512) (512, 512) (512, 512) 104 120
+(512, 512) (512, 512) (512, 512) 105 120
+(512, 512) (512, 512) (512, 512) 106 120
+(512, 512) (512, 512) (512, 512) 107 120
+(512, 512) (512, 512) (512, 512) 108 120
+(512, 512) (512, 512) (512, 512) 109 120
+(512, 512) (512, 512) (512, 512) 110 120
+(512, 512) (512, 512) (512, 512) 111 120
+(512, 512) (512, 512) (512, 512) 112 120
+(512, 512) (512, 512) (512, 512) 113 120
+(512, 512) (512, 512) (512, 512) 114 120
+(512, 512) (512, 512) (512, 512) 115 120
+(512, 512) (512, 512) (512, 512) 116 120
+(512, 512) (512, 512) (512, 512) 117 120
+(512, 512) (512, 512) (512, 512) 118 120
+(512, 512) (512, 512) (512, 512) 119 120
+Generating point cloud from depth map (EXR) (3000000)...
+Loading Training Cameras
+Loading Test Cameras
+Number of points at initialisation :  3000000
+
+
+spatial lr scale: 0.25 0.00016 0.0025 0.01 0.0005 0.0002
+
+
+Computing 3D filter
+Training progress:   0%|          | 0/6000 [00:00<?, ?it/s]Training progress:   0%|          | 0/6000 [00:36<?, ?it/s, Loss=0.2213156]Training progress:   0%|          | 10/6000 [00:36<6:06:05,  3.67s/it, Loss=0.2213156]Training progress:   0%|          | 10/6000 [01:02<6:06:05,  3.67s/it, Loss=0.2807319]Training progress:   0%|          | 20/6000 [01:02<5:03:43,  3.05s/it, Loss=0.2807319]Training progress:   0%|          | 20/6000 [01:44<5:03:43,  3.05s/it, Loss=0.2420719]Training progress:   0%|          | 30/6000 [01:44<5:52:59,  3.55s/it, Loss=0.2420719]Training progress:   0%|          | 30/6000 [02:35<5:52:59,  3.55s/it, Loss=0.2351661]Training progress:   1%|          | 40/6000 [02:35<6:54:02,  4.17s/it, Loss=0.2351661]Training progress:   1%|          | 40/6000 [03:11<6:54:02,  4.17s/it, Loss=0.2470973]Training progress:   1%|          | 50/6000 [03:11<6:32:18,  3.96s/it, Loss=0.2470973]Training progress:   1%|          | 50/6000 [03:47<6:32:18,  3.96s/it, Loss=0.2444064]Training progress:   1%|          | 60/6000 [03:47<6:21:19,  3.85s/it, Loss=0.2444064]Training progress:   1%|          | 60/6000 [04:04<6:21:19,  3.85s/it, Loss=0.2200467]Training progress:   1%|          | 70/6000 [04:04<5:10:35,  3.14s/it, Loss=0.2200467]Training progress:   1%|          | 70/6000 [04:46<5:10:35,  3.14s/it, Loss=0.2406852]Training progress:   1%|▏         | 80/6000 [04:46<5:41:38,  3.46s/it, Loss=0.2406852]Training progress:   1%|▏         | 80/6000 [05:06<5:41:38,  3.46s/it, Loss=0.2185120]Training progress:   2%|▏         | 90/6000 [05:06<4:59:00,  3.04s/it, Loss=0.2185120]Training progress:   2%|▏         | 90/6000 [05:38<4:59:00,  3.04s/it, Loss=0.2608102]Training progress:   2%|▏         | 100/6000 [05:38<5:02:46,  3.08s/it, Loss=0.2608102]Training progress:   2%|▏         | 100/6000 [06:15<5:02:46,  3.08s/it, Loss=0.2312471]Training progress:   2%|▏         | 110/6000 [06:15<5:20:18,  3.26s/it, Loss=0.2312471]Training progress:   2%|▏         | 110/6000 [06:56<5:20:18,  3.26s/it, Loss=0.1934100]Training progress:   2%|▏         | 120/6000 [06:56<5:44:45,  3.52s/it, Loss=0.1934100]Training progress:   2%|▏         | 120/6000 [07:38<5:44:45,  3.52s/it, Loss=0.2047301]Training progress:   2%|▏         | 130/6000 [07:38<6:02:56,  3.71s/it, Loss=0.2047301]Training progress:   2%|▏         | 130/6000 [08:24<6:02:56,  3.71s/it, Loss=0.1884550]Training progress:   2%|▏         | 140/6000 [08:24<6:30:13,  4.00s/it, Loss=0.1884550]Training progress:   2%|▏         | 140/6000 [08:35<6:30:13,  4.00s/it, Loss=0.2328283]Training progress:   2%|▎         | 150/6000 [08:35<5:03:20,  3.11s/it, Loss=0.2328283]Training progress:   2%|▎         | 150/6000 [09:22<5:03:20,  3.11s/it, Loss=0.2337310]Training progress:   3%|▎         | 160/6000 [09:22<5:48:40,  3.58s/it, Loss=0.2337310]Training progress:   3%|▎         | 160/6000 [09:58<5:48:40,  3.58s/it, Loss=0.2076019]Training progress:   3%|▎         | 170/6000 [09:58<5:49:25,  3.60s/it, Loss=0.2076019]Training progress:   3%|▎         | 170/6000 [10:13<5:49:25,  3.60s/it, Loss=0.2247417]Training progress:   3%|▎         | 180/6000 [10:13<4:49:29,  2.98s/it, Loss=0.2247417]Training progress:   3%|▎         | 180/6000 [10:50<4:49:29,  2.98s/it, Loss=0.2205853]Training progress:   3%|▎         | 190/6000 [10:50<5:07:11,  3.17s/it, Loss=0.2205853]Training progress:   3%|▎         | 190/6000 [11:26<5:07:11,  3.17s/it, Loss=0.2673018]Training progress:   3%|▎         | 200/6000 [11:26<5:21:28,  3.33s/it, Loss=0.2673018]Training progress:   3%|▎         | 200/6000 [12:03<5:21:28,  3.33s/it, Loss=0.2312086]Training progress:   4%|▎         | 210/6000 [12:03<5:29:55,  3.42s/it, Loss=0.2312086]Training progress:   4%|▎         | 210/6000 [12:39<5:29:55,  3.42s/it, Loss=0.2556076]Training progress:   4%|▎         | 220/6000 [12:39<5:34:10,  3.47s/it, Loss=0.2556076]Training progress:   4%|▎         | 220/6000 [12:55<5:34:10,  3.47s/it, Loss=0.2128002]Training progress:   4%|▍         | 230/6000 [12:55<4:40:16,  2.91s/it, Loss=0.2128002]Training progress:   4%|▍         | 230/6000 [13:56<4:40:16,  2.91s/it, Loss=0.2712252]Training progress:   4%|▍         | 240/6000 [13:56<6:13:17,  3.89s/it, Loss=0.2712252]Training progress:   4%|▍         | 240/6000 [14:27<6:13:17,  3.89s/it, Loss=0.2323678]Training progress:   4%|▍         | 250/6000 [14:27<5:49:26,  3.65s/it, Loss=0.2323678]Training progress:   4%|▍         | 250/6000 [14:53<5:49:26,  3.65s/it, Loss=0.2448699]Training progress:   4%|▍         | 260/6000 [14:53<5:18:55,  3.33s/it, Loss=0.2448699]Training progress:   4%|▍         | 260/6000 [15:14<5:18:55,  3.33s/it, Loss=0.2150030]Training progress:   4%|▍         | 270/6000 [15:14<4:43:01,  2.96s/it, Loss=0.2150030]Training progress:   4%|▍         | 270/6000 [15:40<4:43:01,  2.96s/it, Loss=0.2389507]Training progress:   5%|▍         | 280/6000 [15:40<4:32:32,  2.86s/it, Loss=0.2389507]Training progress:   5%|▍         | 280/6000 [16:01<4:32:32,  2.86s/it, Loss=0.2534350]Training progress:   5%|▍         | 290/6000 [16:01<4:10:08,  2.63s/it, Loss=0.2534350]Training progress:   5%|▍         | 290/6000 [16:42<4:10:08,  2.63s/it, Loss=0.2637067]Training progress:   5%|▌         | 300/6000 [16:42<4:51:32,  3.07s/it, Loss=0.2637067]Training progress:   5%|▌         | 300/6000 [17:14<4:51:32,  3.07s/it, Loss=0.2359727]Training progress:   5%|▌         | 310/6000 [17:14<4:53:06,  3.09s/it, Loss=0.2359727]Training progress:   5%|▌         | 310/6000 [17:55<4:53:06,  3.09s/it, Loss=0.1942583]Training progress:   5%|▌         | 320/6000 [17:55<5:22:02,  3.40s/it, Loss=0.1942583]Training progress:   5%|▌         | 320/6000 [18:36<5:22:02,  3.40s/it, Loss=0.2391116]Training progress:   6%|▌         | 330/6000 [18:36<5:41:44,  3.62s/it, Loss=0.2391116]Training progress:   6%|▌         | 330/6000 [19:08<5:41:44,  3.62s/it, Loss=0.2170525]Training progress:   6%|▌         | 340/6000 [19:08<5:28:02,  3.48s/it, Loss=0.2170525]Training progress:   6%|▌         | 340/6000 [19:49<5:28:02,  3.48s/it, Loss=0.2737418]Training progress:   6%|▌         | 350/6000 [19:49<5:46:23,  3.68s/it, Loss=0.2737418]Training progress:   6%|▌         | 350/6000 [20:30<5:46:23,  3.68s/it, Loss=0.2335457]Training progress:   6%|▌         | 360/6000 [20:30<5:57:34,  3.80s/it, Loss=0.2335457]Training progress:   6%|▌         | 360/6000 [20:51<5:57:34,  3.80s/it, Loss=0.1926578]Training progress:   6%|▌         | 370/6000 [20:51<5:09:02,  3.29s/it, Loss=0.1926578]Training progress:   6%|▌         | 370/6000 [21:42<5:09:02,  3.29s/it, Loss=0.2793075]Training progress:   6%|▋         | 380/6000 [21:42<5:59:47,  3.84s/it, Loss=0.2793075]Training progress:   6%|▋         | 380/6000 [22:28<5:59:47,  3.84s/it, Loss=0.1658686]Training progress:   6%|▋         | 390/6000 [22:28<6:20:38,  4.07s/it, Loss=0.1658686]Training progress:   6%|▋         | 390/6000 [23:14<6:20:38,  4.07s/it, Loss=0.2101765]Training progress:   7%|▋         | 400/6000 [23:14<6:35:00,  4.23s/it, Loss=0.2101765]Training progress:   7%|▋         | 400/6000 [23:50<6:35:00,  4.23s/it, Loss=0.2033419]Training progress:   7%|▋         | 410/6000 [23:50<6:16:24,  4.04s/it, Loss=0.2033419]Training progress:   7%|▋         | 410/6000 [24:16<6:16:24,  4.04s/it, Loss=0.2253084]Training progress:   7%|▋         | 420/6000 [24:16<5:34:30,  3.60s/it, Loss=0.2253084]Training progress:   7%|▋         | 420/6000 [24:52<5:34:30,  3.60s/it, Loss=0.2153914]Training progress:   7%|▋         | 430/6000 [24:52<5:34:43,  3.61s/it, Loss=0.2153914]Training progress:   7%|▋         | 430/6000 [25:08<5:34:43,  3.61s/it, Loss=0.2240905]Training progress:   7%|▋         | 440/6000 [25:08<4:38:26,  3.00s/it, Loss=0.2240905]Training progress:   7%|▋         | 440/6000 [25:44<4:38:26,  3.00s/it, Loss=0.2126619]Training progress:   8%|▊         | 450/6000 [25:44<4:54:53,  3.19s/it, Loss=0.2126619]Training progress:   8%|▊         | 450/6000 [26:15<4:54:53,  3.19s/it, Loss=0.1928444]Training progress:   8%|▊         | 460/6000 [26:15<4:51:18,  3.15s/it, Loss=0.1928444]Training progress:   8%|▊         | 460/6000 [26:46<4:51:18,  3.15s/it, Loss=0.2179458]Training progress:   8%|▊         | 470/6000 [26:46<4:48:27,  3.13s/it, Loss=0.2179458]Training progress:   8%|▊         | 470/6000 [27:12<4:48:27,  3.13s/it, Loss=0.2180642]Training progress:   8%|▊         | 480/6000 [27:12<4:32:37,  2.96s/it, Loss=0.2180642]Training progress:   8%|▊         | 480/6000 [27:58<4:32:37,  2.96s/it, Loss=0.2383596]Training progress:   8%|▊         | 490/6000 [27:58<5:18:34,  3.47s/it, Loss=0.2383596]sdadasfa: 50 0.0 0.0 1000 1000 100 0.025
+sdadasfa: 100 0.0 0.0 1000 1000 100 0.025
+sdadasfa: 150 0.0 0.0 1000 1000 100 0.025
+sdadasfa: 200 0.0 0.0 1000 1000 100 0.025
+sdadasfa: 250 0.0 0.0 1000 1000 100 0.025
+sdadasfa: 300 0.0 0.0 1000 1000 100 0.025
+sdadasfa: 350 0.0 0.0 1000 1000 100 0.025
+sdadasfa: 400 0.0 0.0 1000 1000 100 0.025
+sdadasfa: 450 0.0 0.0 1000 1000 100 0.025
+sdadasfa: 500 0.0 0.0 1000 1000 100 0.025
+Traceback (most recent call last):
+  File "/ai-video-sh/zhongqi.yang/code/zhongqi.yang/VideoInpainting_new/worldgen/train.py", line 380, in <module>
+    training(lp.extract(args), op.extract(args), pp.extract(args), args.test_iterations, args.save_iterations, args.checkpoint_iterations, args.start_checkpoint, args.debug_from)
+  File "/ai-video-sh/zhongqi.yang/code/zhongqi.yang/VideoInpainting_new/worldgen/train.py", line 230, in training
+    distortion_map = colormap(distortion_map.detach().cpu().numpy()).to(normal.device)
+  File "/ai-video-sh/zhongqi.yang/code/zhongqi.yang/VideoInpainting_new/worldgen/utils/vis_utils.py", line 71, in colormap
+    data = np.frombuffer(fig.canvas.tostring_rgb(), dtype=np.uint8)
+AttributeError: 'FigureCanvasAgg' object has no attribute 'tostring_rgb'. Did you mean: 'tostring_argb'?
+Training progress:   8%|▊         | 490/6000 [28:34<5:21:22,  3.50s/it, Loss=0.2383596]
+/root/miniconda3/envs/sov/lib/python3.10/site-packages/_distutils_hack/__init__.py:53: UserWarning: Reliance on distutils from stdlib is deprecated. Users must rely on setuptools to provide the distutils module. Avoid importing distutils or import setuptools first, and avoid setting SETUPTOOLS_USE_DISTUTILS=stdlib. Register concerns at https://github.com/pypa/setuptools/issues/new?template=distutils-deprecation.yml
+  warnings.warn(
+Looking for config file in output/scene_test/pano_Rail_Road_3_Take_190_0/cfg_args
+Config file found: output/scene_test/pano_Rail_Road_3_Take_190_0/cfg_args
+Rendering output/scene_test/pano_Rail_Road_3_Take_190_0
+Loading trained model at iteration 6000 [21/05 22:16:05]
+Found world_matrix.npz file, assuming Blender npz data set! [21/05 22:16:05]
+Reading all camera params [21/05 22:16:05]
+train_cams=120, test_cams=357 [21/05 22:16:06]
+Loading Training Cameras [21/05 22:16:06]
+Loading Test Cameras [21/05 22:16:08]
+Traceback (most recent call last):
+  File "/ai-video-sh/zhongqi.yang/code/zhongqi.yang/VideoInpainting_new/worldgen/render.py", line 92, in <module>
+    render_sets(model.extract(args), args.iteration, pipeline.extract(args), args.skip_train, args.skip_test)
+  File "/ai-video-sh/zhongqi.yang/code/zhongqi.yang/VideoInpainting_new/worldgen/render.py", line 66, in render_sets
+    scene = Scene(dataset, gaussians, load_iteration=iteration, shuffle=False)
+  File "/ai-video-sh/zhongqi.yang/code/zhongqi.yang/VideoInpainting_new/worldgen/scene/__init__.py", line 85, in __init__
+    self.gaussians.load_ply(os.path.join(self.model_path,
+  File "/ai-video-sh/zhongqi.yang/code/zhongqi.yang/VideoInpainting_new/worldgen/scene/gaussian_model.py", line 489, in load_ply
+    plydata = PlyData.read(path)
+  File "/root/miniconda3/envs/sov/lib/python3.10/site-packages/plyfile.py", line 157, in read
+    (must_close, stream) = _open_stream(stream, 'read')
+  File "/root/miniconda3/envs/sov/lib/python3.10/site-packages/plyfile.py", line 1347, in _open_stream
+    return (True, open(stream, read_or_write[0] + 'b'))
+FileNotFoundError: [Errno 2] No such file or directory: 'output/scene_test/pano_Rail_Road_3_Take_190_0/point_cloud/iteration_6000/point_cloud.ply'
+/root/miniconda3/envs/sov/lib/python3.10/site-packages/_distutils_hack/__init__.py:53: UserWarning: Reliance on distutils from stdlib is deprecated. Users must rely on setuptools to provide the distutils module. Avoid importing distutils or import setuptools first, and avoid setting SETUPTOOLS_USE_DISTUTILS=stdlib. Register concerns at https://github.com/pypa/setuptools/issues/new?template=distutils-deprecation.yml
+  warnings.warn(
+Optimizing output/scene_test/pano_Rail_SplineComponent_468_35__Take_177_1
+Output folder: output/scene_test/pano_Rail_SplineComponent_468_35__Take_177_1
+Found world_matrix.npz file, assuming Blender npz data set!
+Reading all camera params
+train_cams=120, test_cams=357
+(512, 512) (512, 512) (512, 512) 0 120
+(512, 512) (512, 512) (512, 512) 1 120
+(512, 512) (512, 512) (512, 512) 2 120
+(512, 512) (512, 512) (512, 512) 3 120
+(512, 512) (512, 512) (512, 512) 4 120
+(512, 512) (512, 512) (512, 512) 5 120
+(512, 512) (512, 512) (512, 512) 6 120
+(512, 512) (512, 512) (512, 512) 7 120
+(512, 512) (512, 512) (512, 512) 8 120
+(512, 512) (512, 512) (512, 512) 9 120
+(512, 512) (512, 512) (512, 512) 10 120
+(512, 512) (512, 512) (512, 512) 11 120
+(512, 512) (512, 512) (512, 512) 12 120
+(512, 512) (512, 512) (512, 512) 13 120
+(512, 512) (512, 512) (512, 512) 14 120
+(512, 512) (512, 512) (512, 512) 15 120
+(512, 512) (512, 512) (512, 512) 16 120
+(512, 512) (512, 512) (512, 512) 17 120
+(512, 512) (512, 512) (512, 512) 18 120
+(512, 512) (512, 512) (512, 512) 19 120
+(512, 512) (512, 512) (512, 512) 20 120
+(512, 512) (512, 512) (512, 512) 21 120
+(512, 512) (512, 512) (512, 512) 22 120
+(512, 512) (512, 512) (512, 512) 23 120
+(512, 512) (512, 512) (512, 512) 24 120
+(512, 512) (512, 512) (512, 512) 25 120
+(512, 512) (512, 512) (512, 512) 26 120
+(512, 512) (512, 512) (512, 512) 27 120
+(512, 512) (512, 512) (512, 512) 28 120
+(512, 512) (512, 512) (512, 512) 29 120
+(512, 512) (512, 512) (512, 512) 30 120
+(512, 512) (512, 512) (512, 512) 31 120
+(512, 512) (512, 512) (512, 512) 32 120
+(512, 512) (512, 512) (512, 512) 33 120
+(512, 512) (512, 512) (512, 512) 34 120
+(512, 512) (512, 512) (512, 512) 35 120
+(512, 512) (512, 512) (512, 512) 36 120
+(512, 512) (512, 512) (512, 512) 37 120
+(512, 512) (512, 512) (512, 512) 38 120
+(512, 512) (512, 512) (512, 512) 39 120
+(512, 512) (512, 512) (512, 512) 40 120
+(512, 512) (512, 512) (512, 512) 41 120
+(512, 512) (512, 512) (512, 512) 42 120
+(512, 512) (512, 512) (512, 512) 43 120
+(512, 512) (512, 512) (512, 512) 44 120
+(512, 512) (512, 512) (512, 512) 45 120
+(512, 512) (512, 512) (512, 512) 46 120
+(512, 512) (512, 512) (512, 512) 47 120
+(512, 512) (512, 512) (512, 512) 48 120
+(512, 512) (512, 512) (512, 512) 49 120
+(512, 512) (512, 512) (512, 512) 50 120
+(512, 512) (512, 512) (512, 512) 51 120
+(512, 512) (512, 512) (512, 512) 52 120
+(512, 512) (512, 512) (512, 512) 53 120
+(512, 512) (512, 512) (512, 512) 54 120
+(512, 512) (512, 512) (512, 512) 55 120
+(512, 512) (512, 512) (512, 512) 56 120
+(512, 512) (512, 512) (512, 512) 57 120
+(512, 512) (512, 512) (512, 512) 58 120
+(512, 512) (512, 512) (512, 512) 59 120
+(512, 512) (512, 512) (512, 512) 60 120
+(512, 512) (512, 512) (512, 512) 61 120
+(512, 512) (512, 512) (512, 512) 62 120
+(512, 512) (512, 512) (512, 512) 63 120
+(512, 512) (512, 512) (512, 512) 64 120
+(512, 512) (512, 512) (512, 512) 65 120
+(512, 512) (512, 512) (512, 512) 66 120
+(512, 512) (512, 512) (512, 512) 67 120
+(512, 512) (512, 512) (512, 512) 68 120
+(512, 512) (512, 512) (512, 512) 69 120
+(512, 512) (512, 512) (512, 512) 70 120
+(512, 512) (512, 512) (512, 512) 71 120
+(512, 512) (512, 512) (512, 512) 72 120
+(512, 512) (512, 512) (512, 512) 73 120
+(512, 512) (512, 512) (512, 512) 74 120
+(512, 512) (512, 512) (512, 512) 75 120
+(512, 512) (512, 512) (512, 512) 76 120
+(512, 512) (512, 512) (512, 512) 77 120
+(512, 512) (512, 512) (512, 512) 78 120
+(512, 512) (512, 512) (512, 512) 79 120
+(512, 512) (512, 512) (512, 512) 80 120
+(512, 512) (512, 512) (512, 512) 81 120
+(512, 512) (512, 512) (512, 512) 82 120
+(512, 512) (512, 512) (512, 512) 83 120
+(512, 512) (512, 512) (512, 512) 84 120
+(512, 512) (512, 512) (512, 512) 85 120
+(512, 512) (512, 512) (512, 512) 86 120
+(512, 512) (512, 512) (512, 512) 87 120
+(512, 512) (512, 512) (512, 512) 88 120
+(512, 512) (512, 512) (512, 512) 89 120
+(512, 512) (512, 512) (512, 512) 90 120
+(512, 512) (512, 512) (512, 512) 91 120
+(512, 512) (512, 512) (512, 512) 92 120
+(512, 512) (512, 512) (512, 512) 93 120
+(512, 512) (512, 512) (512, 512) 94 120
+(512, 512) (512, 512) (512, 512) 95 120
+(512, 512) (512, 512) (512, 512) 96 120
+(512, 512) (512, 512) (512, 512) 97 120
+(512, 512) (512, 512) (512, 512) 98 120
+(512, 512) (512, 512) (512, 512) 99 120
+(512, 512) (512, 512) (512, 512) 100 120
+(512, 512) (512, 512) (512, 512) 101 120
+(512, 512) (512, 512) (512, 512) 102 120
+(512, 512) (512, 512) (512, 512) 103 120
+(512, 512) (512, 512) (512, 512) 104 120
+(512, 512) (512, 512) (512, 512) 105 120
+(512, 512) (512, 512) (512, 512) 106 120
+(512, 512) (512, 512) (512, 512) 107 120
+(512, 512) (512, 512) (512, 512) 108 120
+(512, 512) (512, 512) (512, 512) 109 120
+(512, 512) (512, 512) (512, 512) 110 120
+(512, 512) (512, 512) (512, 512) 111 120
+(512, 512) (512, 512) (512, 512) 112 120
+(512, 512) (512, 512) (512, 512) 113 120
+(512, 512) (512, 512) (512, 512) 114 120
+(512, 512) (512, 512) (512, 512) 115 120
+(512, 512) (512, 512) (512, 512) 116 120
+(512, 512) (512, 512) (512, 512) 117 120
+(512, 512) (512, 512) (512, 512) 118 120
+(512, 512) (512, 512) (512, 512) 119 120
+Generating point cloud from depth map (EXR) (3000000)...
+Loading Training Cameras
+Loading Test Cameras
+Number of points at initialisation :  3000000
+
+
+spatial lr scale: 0.25 0.00016 0.0025 0.01 0.0005 0.0002
+
+
+Computing 3D filter
+Training progress:   0%|          | 0/6000 [00:00<?, ?it/s]Training progress:   0%|          | 0/6000 [00:31<?, ?it/s, Loss=0.2123840]Training progress:   0%|          | 10/6000 [00:31<5:15:16,  3.16s/it, Loss=0.2123840]Training progress:   0%|          | 10/6000 [01:07<5:15:16,  3.16s/it, Loss=0.3373385]Training progress:   0%|          | 20/6000 [01:07<5:42:19,  3.43s/it, Loss=0.3373385]Training progress:   0%|          | 20/6000 [01:48<5:42:19,  3.43s/it, Loss=0.2925095]Training progress:   0%|          | 30/6000 [01:48<6:11:49,  3.74s/it, Loss=0.2925095]Training progress:   0%|          | 30/6000 [02:40<6:11:49,  3.74s/it, Loss=0.3398823]Training progress:   1%|          | 40/6000 [02:40<7:05:20,  4.28s/it, Loss=0.3398823]Training progress:   1%|          | 40/6000 [03:20<7:05:20,  4.28s/it, Loss=0.3603445]Training progress:   1%|          | 50/6000 [03:20<6:58:02,  4.22s/it, Loss=0.3603445]Training progress:   1%|          | 50/6000 [03:37<6:58:02,  4.22s/it, Loss=0.3192956]Training progress:   1%|          | 60/6000 [03:37<5:29:26,  3.33s/it, Loss=0.3192956]Training progress:   1%|          | 60/6000 [04:13<5:29:26,  3.33s/it, Loss=0.2743623]Training progress:   1%|          | 70/6000 [04:13<5:38:33,  3.43s/it, Loss=0.2743623]Training progress:   1%|          | 70/6000 [04:38<5:38:33,  3.43s/it, Loss=0.2768728]Training progress:   1%|▏         | 80/6000 [04:38<5:10:45,  3.15s/it, Loss=0.2768728]Training progress:   1%|▏         | 80/6000 [05:29<5:10:45,  3.15s/it, Loss=0.2704012]Training progress:   2%|▏         | 90/6000 [05:29<6:10:35,  3.76s/it, Loss=0.2704012]Training progress:   2%|▏         | 90/6000 [06:16<6:10:35,  3.76s/it, Loss=0.3027110]Training progress:   2%|▏         | 100/6000 [06:16<6:35:40,  4.02s/it, Loss=0.3027110]Training progress:   2%|▏         | 100/6000 [06:41<6:35:40,  4.02s/it, Loss=0.3949685]Training progress:   2%|▏         | 110/6000 [06:41<5:51:22,  3.58s/it, Loss=0.3949685]Training progress:   2%|▏         | 110/6000 [07:08<5:51:22,  3.58s/it, Loss=0.2498630]Training progress:   2%|▏         | 120/6000 [07:08<5:25:05,  3.32s/it, Loss=0.2498630]Training progress:   2%|▏         | 120/6000 [08:05<5:25:05,  3.32s/it, Loss=0.2094342]Training progress:   2%|▏         | 130/6000 [08:05<6:32:46,  4.01s/it, Loss=0.2094342]Training progress:   2%|▏         | 130/6000 [08:36<6:32:46,  4.01s/it, Loss=0.2053228]Training progress:   2%|▏         | 140/6000 [08:36<6:06:11,  3.75s/it, Loss=0.2053228]Training progress:   2%|▏         | 140/6000 [09:12<6:06:11,  3.75s/it, Loss=0.3488364]Training progress:   2%|▎         | 150/6000 [09:12<6:01:44,  3.71s/it, Loss=0.3488364]Training progress:   2%|▎         | 150/6000 [09:59<6:01:44,  3.71s/it, Loss=0.2711720]Training progress:   3%|▎         | 160/6000 [09:59<6:28:57,  4.00s/it, Loss=0.2711720]Training progress:   3%|▎         | 160/6000 [10:31<6:28:57,  4.00s/it, Loss=0.3459729]Training progress:   3%|▎         | 170/6000 [10:31<6:04:20,  3.75s/it, Loss=0.3459729]Training progress:   3%|▎         | 170/6000 [11:07<6:04:20,  3.75s/it, Loss=0.2618726]Training progress:   3%|▎         | 180/6000 [11:07<6:00:57,  3.72s/it, Loss=0.2618726]Training progress:   3%|▎         | 180/6000 [11:28<6:00:57,  3.72s/it, Loss=0.3656439]Training progress:   3%|▎         | 190/6000 [11:28<5:13:19,  3.24s/it, Loss=0.3656439]Training progress:   3%|▎         | 190/6000 [11:39<5:13:19,  3.24s/it, Loss=0.3496690]Training progress:   3%|▎         | 200/6000 [11:39<4:11:17,  2.60s/it, Loss=0.3496690]Training progress:   3%|▎         | 200/6000 [11:40<4:11:17,  2.60s/it, Loss=0.3943010]Training progress:   4%|▎         | 210/6000 [11:40<2:56:42,  1.83s/it, Loss=0.3943010]Training progress:   4%|▎         | 210/6000 [11:56<2:56:42,  1.83s/it, Loss=0.2691873]Training progress:   4%|▎         | 220/6000 [11:56<2:50:56,  1.77s/it, Loss=0.2691873]Training progress:   4%|▎         | 220/6000 [12:23<2:50:56,  1.77s/it, Loss=0.3552649]Training progress:   4%|▍         | 230/6000 [12:23<3:15:54,  2.04s/it, Loss=0.3552649]Training progress:   4%|▍         | 230/6000 [12:33<3:15:54,  2.04s/it, Loss=0.3688385]Training progress:   4%|▍         | 240/6000 [12:33<2:46:59,  1.74s/it, Loss=0.3688385]Training progress:   4%|▍         | 240/6000 [12:59<2:46:59,  1.74s/it, Loss=0.3226039]Training progress:   4%|▍         | 250/6000 [12:59<3:11:31,  2.00s/it, Loss=0.3226039]Training progress:   4%|▍         | 250/6000 [13:20<3:11:31,  2.00s/it, Loss=0.3893460]Training progress:   4%|▍         | 260/6000 [13:20<3:14:04,  2.03s/it, Loss=0.3893460]Training progress:   4%|▍         | 260/6000 [13:26<3:14:04,  2.03s/it, Loss=0.3118706]Training progress:   4%|▍         | 270/6000 [13:26<2:32:43,  1.60s/it, Loss=0.3118706]Training progress:   4%|▍         | 270/6000 [13:40<2:32:43,  1.60s/it, Loss=0.3118706]Training progress:   4%|▍         | 270/6000 [13:52<2:32:43,  1.60s/it, Loss=0.3005207]Training progress:   5%|▍         | 280/6000 [13:52<3:01:34,  1.90s/it, Loss=0.3005207]Training progress:   5%|▍         | 280/6000 [13:53<3:01:34,  1.90s/it, Loss=0.3413342]Training progress:   5%|▍         | 290/6000 [13:53<2:08:03,  1.35s/it, Loss=0.3413342]Training progress:   5%|▍         | 290/6000 [14:10<2:08:03,  1.35s/it, Loss=0.3413342]Training progress:   5%|▍         | 290/6000 [14:29<2:08:03,  1.35s/it, Loss=0.3290778]Training progress:   5%|▌         | 300/6000 [14:29<3:11:54,  2.02s/it, Loss=0.3290778]Training progress:   5%|▌         | 300/6000 [14:55<3:11:54,  2.02s/it, Loss=0.3911615]Training progress:   5%|▌         | 310/6000 [14:55<3:28:34,  2.20s/it, Loss=0.3911615]Training progress:   5%|▌         | 310/6000 [15:41<3:28:34,  2.20s/it, Loss=0.3879779]Training progress:   5%|▌         | 320/6000 [15:41<4:36:33,  2.92s/it, Loss=0.3879779]Training progress:   5%|▌         | 320/6000 [16:17<4:36:33,  2.92s/it, Loss=0.2919099]Training progress:   6%|▌         | 330/6000 [16:17<4:56:10,  3.13s/it, Loss=0.2919099]Training progress:   6%|▌         | 330/6000 [16:43<4:56:10,  3.13s/it, Loss=0.2773459]Training progress:   6%|▌         | 340/6000 [16:43<4:40:49,  2.98s/it, Loss=0.2773459]Training progress:   6%|▌         | 340/6000 [17:14<4:40:49,  2.98s/it, Loss=0.3383230]Training progress:   6%|▌         | 350/6000 [17:14<4:42:59,  3.01s/it, Loss=0.3383230]Training progress:   6%|▌         | 350/6000 [17:45<4:42:59,  3.01s/it, Loss=0.2526502]Training progress:   6%|▌         | 360/6000 [17:45<4:45:18,  3.04s/it, Loss=0.2526502]Training progress:   6%|▌         | 360/6000 [18:37<4:45:18,  3.04s/it, Loss=0.2533481]Training progress:   6%|▌         | 370/6000 [18:37<5:45:34,  3.68s/it, Loss=0.2533481]Training progress:   6%|▌         | 370/6000 [19:28<5:45:34,  3.68s/it, Loss=0.3477846]Training progress:   6%|▋         | 380/6000 [19:28<6:25:13,  4.11s/it, Loss=0.3477846]Training progress:   6%|▋         | 380/6000 [20:05<6:25:13,  4.11s/it, Loss=0.2093164]Training progress:   6%|▋         | 390/6000 [20:05<6:11:22,  3.97s/it, Loss=0.2093164]Training progress:   6%|▋         | 390/6000 [20:41<6:11:22,  3.97s/it, Loss=0.2347635]Training progress:   7%|▋         | 400/6000 [20:41<6:01:14,  3.87s/it, Loss=0.2347635]Training progress:   7%|▋         | 400/6000 [21:12<6:01:14,  3.87s/it, Loss=0.3181946]Training progress:   7%|▋         | 410/6000 [21:12<5:39:52,  3.65s/it, Loss=0.3181946]Training progress:   7%|▋         | 410/6000 [21:33<5:39:52,  3.65s/it, Loss=0.3669415]Training progress:   7%|▋         | 420/6000 [21:33<4:55:42,  3.18s/it, Loss=0.3669415]Training progress:   7%|▋         | 420/6000 [21:54<4:55:42,  3.18s/it, Loss=0.3904038]Training progress:   7%|▋         | 430/6000 [21:54<4:25:13,  2.86s/it, Loss=0.3904038]Training progress:   7%|▋         | 430/6000 [22:15<4:25:13,  2.86s/it, Loss=0.3479032]Training progress:   7%|▋         | 440/6000 [22:15<4:04:18,  2.64s/it, Loss=0.3479032]Training progress:   7%|▋         | 440/6000 [22:42<4:04:18,  2.64s/it, Loss=0.3035064]Training progress:   8%|▊         | 450/6000 [22:42<4:03:48,  2.64s/it, Loss=0.3035064]Training progress:   8%|▊         | 450/6000 [23:33<4:03:48,  2.64s/it, Loss=0.2086987]Training progress:   8%|▊         | 460/6000 [23:33<5:12:16,  3.38s/it, Loss=0.2086987]Training progress:   8%|▊         | 460/6000 [24:04<5:12:16,  3.38s/it, Loss=0.2835511]Training progress:   8%|▊         | 470/6000 [24:04<5:03:13,  3.29s/it, Loss=0.2835511]Training progress:   8%|▊         | 470/6000 [24:40<5:03:13,  3.29s/it, Loss=0.2830127]Training progress:   8%|▊         | 480/6000 [24:40<5:12:05,  3.39s/it, Loss=0.2830127]Training progress:   8%|▊         | 480/6000 [25:21<5:12:05,  3.39s/it, Loss=0.3189525]Training progress:   8%|▊         | 490/6000 [25:21<5:30:50,  3.60s/it, Loss=0.3189525]sdadasfa: 50 0.0 0.0 1000 1000 100 0.025
+sdadasfa: 100 0.0 0.0 1000 1000 100 0.025
+sdadasfa: 150 0.0 0.0 1000 1000 100 0.025
+sdadasfa: 200 0.0 0.0 1000 1000 100 0.025
+sdadasfa: 250 0.0 0.0 1000 1000 100 0.025
+sdadasfa: 300 0.0 0.0 1000 1000 100 0.025
+sdadasfa: 350 0.0 0.0 1000 1000 100 0.025
+sdadasfa: 400 0.0 0.0 1000 1000 100 0.025
+sdadasfa: 450 0.0 0.0 1000 1000 100 0.025
+sdadasfa: 500 0.0 0.0 1000 1000 100 0.025
+Traceback (most recent call last):
+  File "/ai-video-sh/zhongqi.yang/code/zhongqi.yang/VideoInpainting_new/worldgen/train.py", line 380, in <module>
+    training(lp.extract(args), op.extract(args), pp.extract(args), args.test_iterations, args.save_iterations, args.checkpoint_iterations, args.start_checkpoint, args.debug_from)
+  File "/ai-video-sh/zhongqi.yang/code/zhongqi.yang/VideoInpainting_new/worldgen/train.py", line 230, in training
+    distortion_map = colormap(distortion_map.detach().cpu().numpy()).to(normal.device)
+  File "/ai-video-sh/zhongqi.yang/code/zhongqi.yang/VideoInpainting_new/worldgen/utils/vis_utils.py", line 71, in colormap
+    data = np.frombuffer(fig.canvas.tostring_rgb(), dtype=np.uint8)
+AttributeError: 'FigureCanvasAgg' object has no attribute 'tostring_rgb'. Did you mean: 'tostring_argb'?
+Training progress:   8%|▊         | 490/6000 [25:52<4:51:02,  3.17s/it, Loss=0.3189525]
+/root/miniconda3/envs/sov/lib/python3.10/site-packages/_distutils_hack/__init__.py:53: UserWarning: Reliance on distutils from stdlib is deprecated. Users must rely on setuptools to provide the distutils module. Avoid importing distutils or import setuptools first, and avoid setting SETUPTOOLS_USE_DISTUTILS=stdlib. Register concerns at https://github.com/pypa/setuptools/issues/new?template=distutils-deprecation.yml
+  warnings.warn(
+Looking for config file in output/scene_test/pano_Rail_SplineComponent_468_35__Take_177_1/cfg_args
+Config file found: output/scene_test/pano_Rail_SplineComponent_468_35__Take_177_1/cfg_args
+Rendering output/scene_test/pano_Rail_SplineComponent_468_35__Take_177_1
+Loading trained model at iteration 6000 [21/05 22:43:00]
+Found world_matrix.npz file, assuming Blender npz data set! [21/05 22:43:00]
+Reading all camera params [21/05 22:43:00]
+train_cams=120, test_cams=357 [21/05 22:43:01]
+Loading Training Cameras [21/05 22:43:01]
+Loading Test Cameras [21/05 22:43:03]
+Traceback (most recent call last):
+  File "/ai-video-sh/zhongqi.yang/code/zhongqi.yang/VideoInpainting_new/worldgen/render.py", line 92, in <module>
+    render_sets(model.extract(args), args.iteration, pipeline.extract(args), args.skip_train, args.skip_test)
+  File "/ai-video-sh/zhongqi.yang/code/zhongqi.yang/VideoInpainting_new/worldgen/render.py", line 66, in render_sets
+    scene = Scene(dataset, gaussians, load_iteration=iteration, shuffle=False)
+  File "/ai-video-sh/zhongqi.yang/code/zhongqi.yang/VideoInpainting_new/worldgen/scene/__init__.py", line 85, in __init__
+    self.gaussians.load_ply(os.path.join(self.model_path,
+  File "/ai-video-sh/zhongqi.yang/code/zhongqi.yang/VideoInpainting_new/worldgen/scene/gaussian_model.py", line 489, in load_ply
+    plydata = PlyData.read(path)
+  File "/root/miniconda3/envs/sov/lib/python3.10/site-packages/plyfile.py", line 157, in read
+    (must_close, stream) = _open_stream(stream, 'read')
+  File "/root/miniconda3/envs/sov/lib/python3.10/site-packages/plyfile.py", line 1347, in _open_stream
+    return (True, open(stream, read_or_write[0] + 'b'))
+FileNotFoundError: [Errno 2] No such file or directory: 'output/scene_test/pano_Rail_SplineComponent_468_35__Take_177_1/point_cloud/iteration_6000/point_cloud.ply'
+Traceback (most recent call last):
+  File "/ai-video-sh/zhongqi.yang/code/zhongqi.yang/VideoInpainting_new/worldgen/train.py", line 14, in <module>
+    import open3d as o3d
+  File "/root/miniconda3/envs/sov/lib/python3.10/site-packages/open3d/__init__.py", line 146, in <module>
+    import open3d.ml
+  File "/root/miniconda3/envs/sov/lib/python3.10/site-packages/open3d/ml/__init__.py", line 16, in <module>
+    from . import datasets
+  File "/root/miniconda3/envs/sov/lib/python3.10/site-packages/open3d/ml/datasets.py", line 15, in <module>
+    from open3d._ml3d.datasets import *
+  File "/root/miniconda3/envs/sov/lib/python3.10/site-packages/open3d/_ml3d/datasets/__init__.py", line 3, in <module>
+    from .semantickitti import SemanticKITTI
+  File "/root/miniconda3/envs/sov/lib/python3.10/site-packages/open3d/_ml3d/datasets/semantickitti.py", line 6, in <module>
+    from sklearn.neighbors import KDTree
+  File "/root/miniconda3/envs/sov/lib/python3.10/site-packages/sklearn/__init__.py", line 73, in <module>
+    from .base import clone  # noqa: E402
+  File "/root/miniconda3/envs/sov/lib/python3.10/site-packages/sklearn/base.py", line 19, in <module>
+    from .utils._estimator_html_repr import _HTMLDocumentationLinkMixin, estimator_html_repr
+  File "/root/miniconda3/envs/sov/lib/python3.10/site-packages/sklearn/utils/__init__.py", line 15, in <module>
+    from ._chunking import gen_batches, gen_even_slices
+  File "/root/miniconda3/envs/sov/lib/python3.10/site-packages/sklearn/utils/_chunking.py", line 11, in <module>
+    from ._param_validation import Interval, validate_params
+  File "/root/miniconda3/envs/sov/lib/python3.10/site-packages/sklearn/utils/_param_validation.py", line 17, in <module>
+    from .validation import _is_arraylike_not_scalar
+  File "/root/miniconda3/envs/sov/lib/python3.10/site-packages/sklearn/utils/validation.py", line 21, in <module>
+    from ..utils._array_api import _asarray_with_order, _is_numpy_namespace, get_namespace
+  File "/root/miniconda3/envs/sov/lib/python3.10/site-packages/sklearn/utils/_array_api.py", line 17, in <module>
+    from .fixes import parse_version
+  File "/root/miniconda3/envs/sov/lib/python3.10/site-packages/sklearn/utils/fixes.py", line 20, in <module>
+    import pandas as pd
+  File "/root/miniconda3/envs/sov/lib/python3.10/site-packages/pandas/__init__.py", line 142, in <module>
+    from pandas.io.api import (
+  File "/root/miniconda3/envs/sov/lib/python3.10/site-packages/pandas/io/api.py", line 32, in <module>
+    from pandas.io.sql import (
+  File "/root/miniconda3/envs/sov/lib/python3.10/site-packages/pandas/io/sql.py", line 1602, in <module>
+    class SQLDatabase(PandasSQL):
+  File "/root/miniconda3/envs/sov/lib/python3.10/abc.py", line 105, in __new__
+    def __new__(mcls, name, bases, namespace, **kwargs):
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/ai-video-sh/zhongqi.yang/code/zhongqi.yang/VideoInpainting_new/worldgen/render.py", line 12, in <module>
+    import torch
+  File "/root/miniconda3/envs/sov/lib/python3.10/site-packages/torch/__init__.py", line 1482, in <module>
+    from .storage import _StorageBase, TypedStorage, _LegacyStorage, UntypedStorage, _warn_typed_storage_removal
+  File "/root/miniconda3/envs/sov/lib/python3.10/site-packages/torch/storage.py", line 15, in <module>
+    import numpy as np
+  File "/root/miniconda3/envs/sov/lib/python3.10/site-packages/numpy/__init__.py", line 114, in <module>
+    from numpy.__config__ import show_config
+  File "/root/miniconda3/envs/sov/lib/python3.10/site-packages/numpy/__config__.py", line 4, in <module>
+    from numpy._core._multiarray_umath import (
+  File "/root/miniconda3/envs/sov/lib/python3.10/site-packages/numpy/_core/__init__.py", line 74, in <module>
+    from . import numeric
+  File "/root/miniconda3/envs/sov/lib/python3.10/site-packages/numpy/_core/numeric.py", line 30, in <module>
+    from ._ufunc_config import errstate
+  File "/root/miniconda3/envs/sov/lib/python3.10/site-packages/numpy/_core/_ufunc_config.py", line 364, in <module>
+    class errstate:
+KeyboardInterrupt
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/ai-video-sh/zhongqi.yang/code/zhongqi.yang/VideoInpainting_new/worldgen/render.py", line 12, in <module>
+    import torch
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1002, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 945, in _find_spec
+  File "<frozen importlib._bootstrap_external>", line 1439, in find_spec
+  File "<frozen importlib._bootstrap_external>", line 1411, in _get_spec
+  File "<frozen importlib._bootstrap_external>", line 1548, in find_spec
+  File "<frozen importlib._bootstrap_external>", line 1591, in _fill_cache
+KeyboardInterrupt
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/ai-video-sh/zhongqi.yang/code/zhongqi.yang/VideoInpainting_new/worldgen/render.py", line 1, in <module>
+    #
+KeyboardInterrupt
+Fatal Python error: init_import_site: Failed to import the site module
+Python runtime state: initialized
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/sov/lib/python3.10/site.py", line 73, in <module>
+    import os
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/ai-video-sh/zhongqi.yang/code/zhongqi.yang/VideoInpainting_new/worldgen/render.py", line 12, in <module>
+    import torch
+  File "/root/miniconda3/envs/sov/lib/python3.10/site-packages/torch/__init__.py", line 17, in <module>
+    import textwrap
+  File "/root/miniconda3/envs/sov/lib/python3.10/textwrap.py", line 17, in <module>
+    class TextWrapper:
+  File "/root/miniconda3/envs/sov/lib/python3.10/textwrap.py", line 81, in TextWrapper
+    wordsep_re = re.compile(r'''
+  File "/root/miniconda3/envs/sov/lib/python3.10/re.py", line 251, in compile
+    return _compile(pattern, flags)
+  File "/root/miniconda3/envs/sov/lib/python3.10/re.py", line 304, in _compile
+    if not (flags & DEBUG):
+  File "/root/miniconda3/envs/sov/lib/python3.10/enum.py", line 989, in __and__
+    return self.__class__(self._value_ & self.__class__(other)._value_)
+  File "/root/miniconda3/envs/sov/lib/python3.10/enum.py", line 385, in __call__
+    return cls.__new__(cls, value)
+  File "/root/miniconda3/envs/sov/lib/python3.10/enum.py", line 678, in __new__
+    def __new__(cls, value):
+KeyboardInterrupt
+Failed checking if argv[0] is an import path entry
+Traceback (most recent call last):
+  File "<frozen zipimport>", line 93, in __init__
+KeyError: '/ai-video-sh/zhongqi.yang/code/zhongqi.yang/VideoInpainting_new/worldgen/train.py'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<frozen zipimport>", line 95, in __init__
+  File "<frozen zipimport>", line 404, in _read_directory
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/ai-video-sh/zhongqi.yang/code/zhongqi.yang/VideoInpainting_new/worldgen/train.py", line 13, in <module>
+    import numpy as np
+  File "/root/miniconda3/envs/sov/lib/python3.10/site-packages/numpy/__init__.py", line 114, in <module>
+    from numpy.__config__ import show_config
+  File "/root/miniconda3/envs/sov/lib/python3.10/site-packages/numpy/__config__.py", line 4, in <module>
+    from numpy._core._multiarray_umath import (
+  File "/root/miniconda3/envs/sov/lib/python3.10/site-packages/numpy/_core/__init__.py", line 74, in <module>
+    from . import numeric
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1012, in get_code
+  File "<frozen importlib._bootstrap_external>", line 672, in _compile_bytecode
+KeyboardInterrupt
+Failed checking if argv[0] is an import path entry
+Traceback (most recent call last):
+  File "<frozen importlib._bootstrap_external>", line 1628, in path_hook_for_FileFinder
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/ai-video-sh/zhongqi.yang/code/zhongqi.yang/VideoInpainting_new/worldgen/render.py", line 12, in <module>
+    import torch
+  File "/root/miniconda3/envs/sov/lib/python3.10/site-packages/torch/__init__.py", line 21, in <module>
+    import pdb
+  File "/root/miniconda3/envs/sov/lib/python3.10/pdb.py", line 79, in <module>
+    import pprint
+  File "/root/miniconda3/envs/sov/lib/python3.10/pprint.py", line 38, in <module>
+    import dataclasses as _dataclasses
+  File "/root/miniconda3/envs/sov/lib/python3.10/dataclasses.py", line 3, in <module>
+    import copy
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1010, in get_code
+  File "<frozen importlib._bootstrap>", line 244, in _verbose_message
+KeyboardInterrupt
