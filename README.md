@@ -8,7 +8,6 @@
 
 <div align="center">
 
-[![Github](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/SkyworkAI/Matrix-3D/tree/main)
 [![📄 Project Page](https://img.shields.io/badge/📄-Project_Page-orange)](https://matrix-3d.github.io/)
 [![Hugging Face Model](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue?style=flat)](https://huggingface.co/Skywork/Matrix-3D)
 ![Badge](https://img.shields.io/badge/version-v0.1.0-green)
