@@ -425,4 +425,4 @@ This project is built on top of the follows, please consider citing them if you 
 - [StableSR](https://github.com/IceClear/StableSR)
 - [VEnhancer](https://github.com/Vchitect/VEnhancer)
 ## 📧 Contact
-If you have any questions, please feel free post an issue.
+If you have any questions or would like us to implement any features, please feel free post an issue.
