@@ -221,7 +221,7 @@ chmod +x install.sh
 ## 🎮 Usage
 - 🔧 **Checkpoint Download**
 ```bash
-python scripts/download_checkpoints.py
+python code/download_checkpoints.py
 ```
 
 - 🔥 **One-command 3D World Generation**
