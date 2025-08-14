@@ -217,6 +217,8 @@ chmod +x install.sh
 [Wan_Lora](https://huggingface.co/Skywork/Matrix-3D)
 [VEnhancer](https://huggingface.co/jwhejwhe/VEnhancer/resolve/main/venhancer_v2.pt?download=true) -->
 
+Currently the generation process takes 40G VRAM for 480p generation and 60G VRAM for 720p generation.
+We will soon release a smaller checkpoint which takes only 24G VRAM (e.g. NVIDIA RTX 4090 GPU) for 720p generation.
 
 ## 🎮 Usage
 - 🔧 **Checkpoint Download**
