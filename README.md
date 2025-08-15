@@ -174,6 +174,7 @@
 
 
 ## 📦 Installation
+Currently tested on Linux system with NVIDIA GPU.
 
 Clone the repo and create the environment:
 
