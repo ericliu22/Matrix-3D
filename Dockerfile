@@ -38,7 +38,7 @@ RUN uv pip install --system plyfile decord ffmpeg trimesh pyrender xfuser diffus
     uv pip install --system "git+https://github.com/facebookresearch/pytorch3d.git@v0.7.7" && \
     uv pip install --system peft easydict torchsde open-clip-torch==2.7.0 fairscale natsort && \
     uv pip install --system realesrgan && \
-    uv pip install --system flash-attn==2.7.4.post1 --no-build-isolation && \
+    uv pip install --system flash_attn-2.7.4.post1+cu12torch2.6cp310-cp310-linux_x86_64.whl --no-build-isolation && \
     uv pip install --system git+https://github.com/EasternJournalist/utils3d.git#egg=utils3d && \
     uv pip install --system xformers==0.0.31 && \
     uv pip install --system jaxtyping==0.3.2 modelscope==1.28.2 diffusers==0.34.0 matplotlib==3.8.4 transformers==4.51.0 && \

@@ -22,7 +22,7 @@ pip install plyfile decord ffmpeg trimesh pyrender xfuser diffusers open3d py360
 pip install "git+https://github.com/facebookresearch/pytorch3d.git@v0.7.7"
 pip install peft easydict torchsde open-clip-torch==2.7.0 fairscale natsort
 pip install realesrgan #Version >3.7 and <3.9
-pip install flash-attn==2.7.4.post1 --no-build-isolation
+pip install flash_attn-2.7.4.post1+cu12torch2.6cp310-cp310-linux_x86_64.whl --no-build-isolation
 pip install git+https://github.com/EasternJournalist/utils3d.git#egg=utils3d
 pip install xformers==0.0.31
 pip install jaxtyping==0.3.2
