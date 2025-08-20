@@ -1,77 +1,108 @@
-FROM nvidia/cuda:12.4.1-cudnn-devel-ubuntu22.04
+# ============================================================
+# Base (PyTorch 2.7.0 + CUDA 12.8 + cuDNN 9, with build toolchain)
+# ============================================================
+FROM pytorch/pytorch:2.7.0-cuda12.8-cudnn9-devel
 
+# --- Environment ---
 ENV DEBIAN_FRONTEND=noninteractive \
     PIP_DISABLE_PIP_VERSION_CHECK=1 \
     PIP_NO_CACHE_DIR=1 \
-    PYTHONUNBUFFERED=1
+    FORCE_CUDA=1 \
+    TORCH_CUDA_ARCH_LIST="8.0;8.6;8.9;9.0" \
+    MAX_JOBS=4 \
+    PYGLET_HEADLESS=1 \
+    PYOPENGL_PLATFORM=egl \
+    EGL_PLATFORM=surfaceless
 
-# Target SMs
-ARG TORCH_CUDA_ARCH_LIST="8.0;8.6;8.9;9.0"
-ENV TORCH_CUDA_ARCH_LIST=${TORCH_CUDA_ARCH_LIST}
-ENV FORCE_CUDA=1
-ENV MAX_JOBS=4
-ENV CUDACXX=/usr/local/cuda/bin/nvcc
-
-# OS deps (runtime + build)
+# --- System deps (build + headless GL/EGL runtime bits) ---
 RUN apt-get update && apt-get install -y --no-install-recommends \
-    python3 python3-pip python3-dev \
-    git curl ffmpeg \
-    build-essential cmake ninja-build \
-    libgl1 libglib2.0-0 libxext6 libxrender1 libsm6 libxi6 libxxf86vm1 libosmesa6 \
-    libjpeg-turbo8 zlib1g libgomp1 \
+    git curl ca-certificates tini \
+    build-essential cmake pkg-config \
+    libegl1 libgles2 libgl1 libglvnd0 \
+    libxrender1 libxext6 libsm6 libx11-6 libxi6 libxxf86vm1 \
     && rm -rf /var/lib/apt/lists/*
 
-# Make python/pip point to python3/pip3
-RUN update-alternatives --install /usr/bin/python python /usr/bin/python3 1 \
- && update-alternatives --install /usr/bin/pip pip /usr/bin/pip3 1
+ENV LD_LIBRARY_PATH=/usr/lib/x86_64-linux-gnu:${LD_LIBRARY_PATH}
 
-WORKDIR /app
-COPY . /app
-RUN git submodule update --init --recursive
+# ============================================================
+# App
+# ============================================================
+WORKDIR /app/Matrix-3D
+COPY . .
 
-# --- Torch pinned to 2.6.0 cu124 (matches FlashAttention wheel) ---
-RUN python -m pip install --upgrade pip setuptools wheel \
- && python -m pip install --index-url https://download.pytorch.org/whl/cu124 \
-      torch==2.6.0 torchvision==0.21.0
+# Torch/vision are already present from the base image — do not (re)install.
+# Upgrade packaging tools once.
+RUN python -m pip install --upgrade pip setuptools wheel
 
-# nvdiffrast
-RUN python -m pip install ./submodules/nvdiffrast
+# ============================================================
+# install.sh (broken into Dockerfile steps)
+# ============================================================
 
-# simple-knn via PEP 517
-RUN python -m pip install --no-build-isolation ./submodules/ODGS/submodules/simple-knn
+# 1) "✅ Installing Submodules..." — nvdiffrast & simple-knn
+RUN set -eux; \
+    cd ./submodules/nvdiffrast && \
+    pip install . && \
+    cd ../simple-knn && \
+    python setup.py install
 
-# diff-gaussian-rasterization w/ pose
-RUN python -m pip install git+https://github.com/rmurai0610/diff-gaussian-rasterization-w-pose.git
+# 2) Diff Gaussian rasterizers (ODGS, forks)
+RUN set -eux; \
+    pip install "git+https://github.com/rmurai0610/diff-gaussian-rasterization-w-pose.git"; \
+    cd ./submodules && \
+    git clone https://github.com/esw0116/ODGS.git && \
+    cd ODGS && \
+    pip install submodules/odgs-gaussian-rasterization
 
-# ODGS rasterization
-RUN python -m pip install submodules/ODGS/submodules/odgs-gaussian-rasterization
+# 3) DiffSynth-Studio (editable)
+RUN set -eux; \
+    cd /app/Matrix-3D/code/DiffSynth-Studio && \
+    pip install -e .
 
-# Project package (editable)
-RUN python -m pip install -e code/DiffSynth-Studio
+# 4) Python dependencies (kept in the same order as your script)
+#    NOTE: If any of these pull in torch/torchvision, pip may try to resolve them.
+#    We rely on the base image’s torch 2.7.0; pin extra deps carefully if needed.
+ARG FLASH_ATTN_WHEEL="flash_attn-2.7.4.post1+cu12torch2.6cp310-cp310-linux_x86_64.whl"
+# ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+# IMPORTANT: The example filename you gave is built for *torch 2.6*. For torch 2.7.0
+# you must supply a matching wheel (name will differ). Override at build time:
+#   podman build --build-arg FLASH_ATTN_WHEEL=<matching_whl> -t your/image .
+RUN set -eux; \
+    pip install \
+        plyfile decord ffmpeg trimesh pyrender xfuser diffusers open3d py360convert && \
+    pip install "git+https://github.com/facebookresearch/pytorch3d.git@v0.7.7" && \
+    pip install peft easydict torchsde open-clip-torch==2.7.0 fairscale natsort && \
+    pip install realesrgan && \
+    pip install "/app/Matrix-3D/${FLASH_ATTN_WHEEL}" --no-build-isolation && \
+    pip install "git+https://github.com/EasternJournalist/utils3d.git#egg=utils3d" && \
+    pip install xformers==0.0.31 && \
+    pip install jaxtyping==0.3.2 && \
+    pip install modelscope==1.28.2 && \
+    pip install diffusers==0.34.0 && \
+    pip install matplotlib==3.8.4 && \
+    pip install transformers==4.51.0 && \
+    pip install torchmetrics==0.7.0 && \
+    pip install OmegaConf==2.1.1 && \
+    pip install imageio-ffmpeg==0.6.0 && \
+    pip install pytorch-lightning==1.4.2 && \
+    pip install omegaconf==2.1.1 && \
+    pip install webdataset==0.2.5 && \
+    pip install kornia==0.6 && \
+    pip install streamlit==1.12.1 && \
+    pip install einops==0.8.0 && \
+    pip install open_clip_torch && \
+    pip install SwissArmyTransformer==0.4.12 && \
+    pip install wandb==0.21.1 && \
+    pip install -e "git+https://github.com/CompVis/taming-transformers.git@master#egg=taming-transformers" && \
+    pip uninstall -y basicsr && \
+    pip install openai-clip
 
-# --- FlashAttention (prebuilt wheel only) ---
-# Place your wheel next to the Dockerfile (example name below).
-# Must match: Python 3.10 (cp310), Torch 2.6, CUDA 12.x.
-# Example: flash_attn-2.7.4.post1+cu12torch2.6cp310-cp310-linux_x86_64.whl
-COPY flash_attn-*.whl /tmp/flash-attn.whl
-RUN python -m pip install /tmp/flash-attn.whl --no-build-isolation \
- && rm -f /tmp/flash-attn.whl
+# (Optional) prove imports resolve at build time for faster failures:
+# RUN python - <<'PY'
+# import torch, diffusers, pytorch_lightning, xformers, kornia, open_clip
+# import trimesh, pyrender
+# print("Imports OK")
+# PY
 
-# Remaining deps
-RUN python -m pip install \
-      plyfile decord ffmpeg-python trimesh pyrender xfuser diffusers open3d py360convert \
-  && python -m pip install "git+https://github.com/facebookresearch/pytorch3d.git@v0.7.7" \
-  && python -m pip install peft easydict torchsde open-clip-torch==2.7.0 fairscale natsort \
-  && python -m pip install realesrgan \
-  && python -m pip install "git+https://github.com/EasternJournalist/utils3d.git#egg=utils3d" \
-  && python -m pip install xformers==0.0.31 \
-  && python -m pip install jaxtyping==0.3.2 modelscope==1.28.2 diffusers==0.34.0 matplotlib==3.8.4 transformers==4.51.0 \
-  && python -m pip install torchmetrics==0.7.0 OmegaConf==2.1.1 imageio-ffmpeg==0.6.0 pytorch-lightning==1.4.2 omegaconf==2.1.1 \
-  && python -m pip install webdataset==0.2.5 kornia==0.6 streamlit==1.12.1 einops==0.8.0 open_clip_torch \
-  && python -m pip install SwissArmyTransformer==0.4.12 wandb==0.21.1 \
-  && python -m pip install -e "git+https://github.com/CompVis/taming-transformers.git@master#egg=taming-transformers" \
-  && python -m pip uninstall -y basicsr || true \
-  && python -m pip install openai-clip
-
-CMD ["bash"]
+ENTRYPOINT ["/usr/bin/tini", "-g", "--"]
+CMD ["/bin/bash"]
 

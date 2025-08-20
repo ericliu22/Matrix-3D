@@ -43,7 +43,8 @@ pip install open_clip_torch
 pip install SwissArmyTransformer==0.4.12
 pip install wandb==0.21.1
 pip install -e git+https://github.com/CompVis/taming-transformers.git@master#egg=taming-transformers
-pip uninstall basicsr
+pip uninstall -y basicsr
+
 pip install openai-clip
 
 
